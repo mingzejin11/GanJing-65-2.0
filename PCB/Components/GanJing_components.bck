@@ -1,0 +1,88 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N4148TR_diode
+D 1N4148TR diode
+F https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf
+$ENDCMP
+#
+$CMP EC11_rotary_encoder
+D Rotary encoder
+F https://www.mouser.com/datasheet/2/15/EC11-1370808.pdf
+$ENDCMP
+#
+$CMP Elite-C
+D Proprietary microcontroller board featuring the ATmega32U4 and a USB-c port
+F https://deskthority.net/wiki/Elite-C
+$ENDCMP
+#
+$CMP MX_1.25u_no_LED
+D 1.25u MX switch
+F https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf
+$ENDCMP
+#
+$CMP MX_1.5u_no_LED
+D 1.5u MX switch
+F https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf
+$ENDCMP
+#
+$CMP MX_1.75u_no_LED
+D 1.75u MX switch
+F https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf
+$ENDCMP
+#
+$CMP MX_1.75u_stepped_no_LED
+D 1.75u stepped MX switch
+F https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf
+$ENDCMP
+#
+$CMP MX_1u_no_LED
+D 1u MX switch
+F https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf
+$ENDCMP
+#
+$CMP MX_2.25u_no_LED
+D 2.25u MX switch
+F https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf
+$ENDCMP
+#
+$CMP MX_2.25u_no_LED_flipped_stabs
+D 2.25u MX switch with flipped stabs
+F https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf
+$ENDCMP
+#
+$CMP MX_2.75u_no_LED
+D 2.75u MX switch
+F https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf
+$ENDCMP
+#
+$CMP MX_2.75u_no_LED_flipped_stabs
+D 2.75u MX switch with flipped stabs
+F https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf
+$ENDCMP
+#
+$CMP MX_2u_no_LED
+D 2u MX switch
+F https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf
+$ENDCMP
+#
+$CMP MX_6.25u_no_LED_flipped_stabs
+D 6.25u MX switch with flipped stabs
+F https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf
+$ENDCMP
+#
+$CMP MX_7u_no_LED_flipped_stabs
+D 7u MX switch with flipped stabs
+F https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf
+$ENDCMP
+#
+$CMP MX_ISO_no_LED_flipped_stabs
+D ISO MX switch with flipped stabs
+F https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf
+$ENDCMP
+#
+$CMP SSD1306_128x64_OLED
+D 128x64 OLED display
+F https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
+$ENDCMP
+#
+#End Doc Library

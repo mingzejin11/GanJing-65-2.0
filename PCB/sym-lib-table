@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name GanJing_components)(type Legacy)(uri ${KIPRJMOD}/Components/GanJing_components.lib)(options "")(descr ""))
+)
