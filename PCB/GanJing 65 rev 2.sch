@@ -2389,14 +2389,10 @@ Text GLabel 4000 6950 2    50   Input ~ 0
 S2
 Wire Wire Line
 	4000 6950 3950 6950
-Text GLabel 10450 1850 0    50   Input ~ 0
+Text GLabel 10550 1850 2    50   Input ~ 0
 S1
-Text GLabel 10300 2000 2    50   Input ~ 0
+Text GLabel 10550 2050 2    50   Input ~ 0
 S2
-Wire Wire Line
-	10300 2000 10250 2000
-Wire Wire Line
-	10250 2000 10250 2050
 $Comp
 L GanJing_components:1N4148TR_diode D71
 U 1 1 62168B1D
@@ -2596,7 +2592,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 3150 2150 3100
 Wire Wire Line
-	2050 3150 2050 3100
+	1500 2000 1550 2000
 Wire Wire Line
 	1500 2700 1550 2700
 Wire Wire Line
@@ -2610,13 +2606,11 @@ Wire Wire Line
 Wire Wire Line
 	1500 2200 1550 2200
 Wire Wire Line
-	1500 2100 1550 2100
-Wire Wire Line
 	1500 1900 1550 1900
 Wire Wire Line
 	1500 1600 1550 1600
 Wire Wire Line
-	1500 2000 1550 2000
+	1500 2100 1550 2100
 NoConn ~ 1550 1800
 Text GLabel 3000 1600 2    50   Input ~ 0
 rotory_1
@@ -2630,35 +2624,35 @@ Text GLabel 3000 2400 2    50   Input ~ 0
 row_3
 Text GLabel 3000 2500 2    50   Input ~ 0
 row_2
-Text GLabel 3000 2600 2    50   Input ~ 0
-row_1
-Text GLabel 3000 2700 2    50   Input ~ 0
-col_15
-Text GLabel 2450 3150 3    50   Input ~ 0
-col_14
-Text GLabel 2350 3150 3    50   Input ~ 0
-col_13
-Text GLabel 2250 3150 3    50   Input ~ 0
-col_12
-Text GLabel 2150 3150 3    50   Input ~ 0
-col_11
-Text GLabel 2050 3150 3    50   Input ~ 0
-col_10
-Text GLabel 1500 2700 0    50   Input ~ 0
-col_9
-Text GLabel 1500 2600 0    50   Input ~ 0
-col_8
-Text GLabel 1500 2500 0    50   Input ~ 0
-col_7
-Text GLabel 1500 2400 0    50   Input ~ 0
-col_6
-Text GLabel 1500 2300 0    50   Input ~ 0
-col_5
-Text GLabel 1500 2200 0    50   Input ~ 0
-col_4
-Text GLabel 1500 2100 0    50   Input ~ 0
-col_3
 Text GLabel 1500 1600 0    50   Input ~ 0
+row_1
+Text GLabel 3000 2600 2    50   Input ~ 0
+col_15
+Text GLabel 3000 2700 2    50   Input ~ 0
+col_14
+Text GLabel 2450 3150 3    50   Input ~ 0
+col_13
+Text GLabel 2350 3150 3    50   Input ~ 0
+col_12
+Text GLabel 2250 3150 3    50   Input ~ 0
+col_11
+Text GLabel 2150 3150 3    50   Input ~ 0
+col_10
+Text GLabel 2050 3150 3    50   Input ~ 0
+col_9
+Text GLabel 1500 2700 0    50   Input ~ 0
+col_8
+Text GLabel 1500 2600 0    50   Input ~ 0
+col_7
+Text GLabel 1500 2500 0    50   Input ~ 0
+col_6
+Text GLabel 1500 2400 0    50   Input ~ 0
+col_5
+Text GLabel 1500 2300 0    50   Input ~ 0
+col_4
+Text GLabel 1500 2200 0    50   Input ~ 0
+col_3
+Text GLabel 1500 2000 0    50   Input ~ 0
 col_1
 Text GLabel 1500 1900 0    50   Input ~ 0
 VCC
@@ -2675,7 +2669,7 @@ Wire Wire Line
 	2950 1900 3400 1900
 Wire Wire Line
 	2950 1800 3400 1800
-Text GLabel 1500 2000 0    50   Input ~ 0
+Text GLabel 1500 2100 0    50   Input ~ 0
 col_2
 Wire Wire Line
 	8150 5350 8150 5400
@@ -2726,4 +2720,23 @@ Wire Wire Line
 Connection ~ 10500 1850
 Wire Wire Line
 	10500 1850 10500 2600
+$Comp
+L GanJing_components:MX_1u_no_LED MX76
+U 1 1 61AD3FB4
+P 10250 1850
+F 0 "MX76" H 10300 1950 50  0000 C CNN
+F 1 "MX_1u_no_LED" H 10250 1850 50  0001 C CNN
+F 2 "GanJing_components:MX_1u_no_LED" H 10250 1850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 10250 1850 50  0001 C CNN
+F 4 "1u" H 10350 1700 50  0000 C CNN "Size"
+	1    10250 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 2050 10250 2050
+Connection ~ 10250 2050
+Wire Wire Line
+	10500 1850 10550 1850
+Wire Wire Line
+	2050 3150 2050 3100
 $EndSCHEMATC
