@@ -6,7 +6,7 @@
 ## Layout options
 The GanJing 65 supports ISO layouts, stepped caps lock, and split spacebar options.
 
-![GanJing-keyboard](./Images/GanJing 65 rev 2.0 layout.png)
+![GanJing-65-2.0](./Images/GanJing 65 rev 2.0 layout.png)
 ## Schematic
 
 ![](./Images/GanJing 65 rev 2.0 schematic.png)
