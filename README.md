@@ -9,10 +9,10 @@ The GanJing 65 supports ISO layouts, stepped caps lock, and split spacebar optio
 ![GanJing-65-2.0](./Images/GanJing_65_rev_2.0_layout.png)
 ## Schematic
 
-![](./Images/GanJing 65 rev 2.0 schematic.png)
+![](./Images/GanJing_65_rev_2.0_schematic.png)
 ## PCB layout
 ### Front
-![](./Images/GanJing_65_rev_2.0_schematic.png)
+![](./Images/GanJing_65_rev_2.0_PCB_front.png)
 
 ### Back
 ![](./Images/GanJing_65_rev_2.0_PCB_back.png)
