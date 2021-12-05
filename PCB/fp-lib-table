@@ -1,4 +1,3 @@
 (fp_lib_table
   (lib (name GanJing_components)(type KiCad)(uri ${KIPRJMOD}/Components/GanJing_components.pretty)(options "")(descr "GanJing components"))
-  (lib (name cftkb)(type KiCad)(uri "C:/Users/Salmata Barrie/Downloads/mysterium-master/cftkb.pretty")(options "")(descr ""))
 )
