@@ -2364,31 +2364,31 @@ $EndComp
 $Comp
 L GanJing_components:SSD1306_128x64_OLED DS1
 U 1 1 621832C4
-P 1600 6850
-F 0 "DS1" H 1500 7150 50  0000 L CNN
-F 1 "SSD1306_128x64_OLED" H 1150 6550 50  0000 L CNN
-F 2 "GanJing_components:SSD1306_128x64_OLED" V 1600 6850 50  0001 C CNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf" V 1600 6850 50  0001 C CNN
-	1    1600 6850
+P 1500 5150
+F 0 "DS1" H 1400 5450 50  0000 L CNN
+F 1 "SSD1306_128x64_OLED" H 1050 4850 50  0000 L CNN
+F 2 "GanJing_components:SSD1306_128x64_OLED" V 1500 5150 50  0001 C CNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf" V 1500 5150 50  0001 C CNN
+	1    1500 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L GanJing_components:EC11_rotary_encoder SW1
 U 1 1 62183C25
-P 3650 6850
-F 0 "SW1" H 3650 7100 50  0000 C CNN
-F 1 "EC11_rotary_encoder" H 3650 6600 50  0000 C CNN
-F 2 "GanJing_components:EC11_rotary_encoder" H 3650 6850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/15/EC11-1370808.pdf" H 3650 6850 50  0001 C CNN
-	1    3650 6850
+P 3550 5150
+F 0 "SW1" H 3550 5400 50  0000 C CNN
+F 1 "EC11_rotary_encoder" H 3550 4900 50  0000 C CNN
+F 2 "GanJing_components:EC11_rotary_encoder" H 3550 5150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/15/EC11-1370808.pdf" H 3550 5150 50  0001 C CNN
+	1    3550 5150
 	1    0    0    -1  
 $EndComp
-Text GLabel 4000 6750 2    50   Input ~ 0
+Text GLabel 3900 5050 2    50   Input ~ 0
 S1
-Text GLabel 4000 6950 2    50   Input ~ 0
+Text GLabel 3900 5250 2    50   Input ~ 0
 S2
 Wire Wire Line
-	4000 6950 3950 6950
+	3900 5250 3850 5250
 Text GLabel 10550 1850 2    50   Input ~ 0
 S1
 Text GLabel 10550 2050 2    50   Input ~ 0
@@ -2482,58 +2482,58 @@ Connection ~ 5350 2400
 $Comp
 L power:GND #PWR03
 U 1 1 6228762B
-P 2800 7000
-F 0 "#PWR03" H 2800 6750 50  0001 C CNN
-F 1 "GND" H 2805 6827 50  0000 C CNN
-F 2 "" H 2800 7000 50  0001 C CNN
-F 3 "" H 2800 7000 50  0001 C CNN
-	1    2800 7000
+P 2700 5300
+F 0 "#PWR03" H 2700 5050 50  0001 C CNN
+F 1 "GND" H 2705 5127 50  0000 C CNN
+F 2 "" H 2700 5300 50  0001 C CNN
+F 3 "" H 2700 5300 50  0001 C CNN
+	1    2700 5300
 	1    0    0    -1  
 $EndComp
-Text GLabel 3300 6750 0    50   Input ~ 0
+Text GLabel 3200 5050 0    50   Input ~ 0
 rotory_1
-Text GLabel 3300 6950 0    50   Input ~ 0
+Text GLabel 3200 5250 0    50   Input ~ 0
 rotory_2
 Wire Wire Line
-	2800 6850 2800 7000
+	2700 5150 2700 5300
 Wire Wire Line
-	2800 6850 3350 6850
+	2700 5150 3250 5150
 Wire Wire Line
-	3300 6750 3350 6750
+	3200 5050 3250 5050
 Wire Wire Line
-	3350 6950 3300 6950
-Text GLabel 1200 6700 0    50   Input ~ 0
+	3250 5250 3200 5250
+Text GLabel 1100 5000 0    50   Input ~ 0
 SDA
-Text GLabel 1200 6800 0    50   Input ~ 0
+Text GLabel 1100 5100 0    50   Input ~ 0
 SCL
-Text GLabel 1200 6900 0    50   Input ~ 0
+Text GLabel 1100 5200 0    50   Input ~ 0
 VCC
 $Comp
 L power:GND #PWR04
 U 1 1 622F0D74
-P 1050 7050
-F 0 "#PWR04" H 1050 6800 50  0001 C CNN
-F 1 "GND" H 1055 6877 50  0000 C CNN
-F 2 "" H 1050 7050 50  0001 C CNN
-F 3 "" H 1050 7050 50  0001 C CNN
-	1    1050 7050
+P 950 5350
+F 0 "#PWR04" H 950 5100 50  0001 C CNN
+F 1 "GND" H 955 5177 50  0000 C CNN
+F 2 "" H 950 5350 50  0001 C CNN
+F 3 "" H 950 5350 50  0001 C CNN
+	1    950  5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 7050 1050 7000
+	950  5350 950  5300
 Wire Wire Line
-	1050 7000 1250 7000
+	950  5300 1150 5300
 Wire Wire Line
-	1250 6900 1200 6900
+	1150 5200 1100 5200
 Wire Wire Line
-	1200 6800 1250 6800
+	1100 5100 1150 5100
 Wire Wire Line
-	1250 6700 1200 6700
+	1150 5000 1100 5000
 Text Notes 7000 1150 0    197  ~ 0
 Keyboard matrix
-Text Notes 2950 6350 0    197  ~ 0
+Text Notes 2850 4650 0    197  ~ 0
 Encoder
-Text Notes 1000 6350 0    197  ~ 0
+Text Notes 900  4650 0    197  ~ 0
 Display
 Text Notes 1800 1150 0    197  ~ 0
 USB-c
@@ -2714,7 +2714,7 @@ Connection ~ 5950 2600
 Wire Wire Line
 	5950 2600 5950 3350
 Wire Wire Line
-	4000 6750 3950 6750
+	3900 5050 3850 5050
 Wire Wire Line
 	10450 1850 10500 1850
 Connection ~ 10500 1850
