@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name GanJing_components)(type KiCad)(uri ${KIPRJMOD}/Components/GanJing_components.pretty)(options "")(descr "GanJing components"))
-)
