@@ -9,10 +9,14 @@ The GanJing 65 supports ISO layouts, stepped caps lock, and split spacebar optio
 ### Solder
 ![GanJing-65-2.0](./Images/Solder/GanJing_65_rev_2.0_solder_layout.png)
 ### Hotswap
-![GanJing-65-2.0](./Images/Hotswap/GanJing_65_rev_2.0_hotswap_layout.png)
+![](./Images/Hotswap/GanJing_65_rev_2.0_hotswap_layout.png)
 ## Schematic
 
+### Solder
 ![](./Images/Solder/GanJing_65_rev_2.0_solder_schematic.png)
+### Hotswap
+![](./Images/Hotswap/GanJing_65_rev_2.0_hotswap_schematic.png)
+
 ## Solder PCB layout
 ### Front
 ![](./Images/Solder/GanJing_65_rev_2.0_solder_PCB_front.png)
@@ -22,7 +26,7 @@ The GanJing 65 supports ISO layouts, stepped caps lock, and split spacebar optio
 
 ## Hotswap PCB layout
 ### Front
-![](./Images/Hotswap/GanJing_65_rev_2.0_solder_PCB_front.png)
+![](./Images/Hotswap/GanJing_65_rev_2.0_hotswap_PCB_front.png)
 
 ### Back
-![](./Images/Hotswap/GanJing_65_rev_2.0_solder_PCB_back.png)
+![](./Images/Hotswap/GanJing_65_rev_2.0_hotswap_PCB_back.png)
