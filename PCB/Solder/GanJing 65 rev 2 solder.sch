@@ -1974,31 +1974,14 @@ Wire Wire Line
 Wire Wire Line
 	7700 5600 7700 5450
 Wire Wire Line
-	7700 5450 8000 5450
-Wire Wire Line
-	8000 5450 8000 5600
-Wire Wire Line
 	7350 5450 7350 5600
 Connection ~ 7700 5450
-Wire Wire Line
-	7150 5800 7150 5850
-Wire Wire Line
-	7150 5850 7450 5850
-Wire Wire Line
-	7800 5850 7800 5800
 Wire Wire Line
 	7450 5800 7450 5850
 Connection ~ 7450 5850
 Wire Wire Line
-	7450 5850 7800 5850
-Wire Wire Line
-	7450 5050 7000 5050
-Wire Wire Line
-	7000 5050 7000 5850
-Wire Wire Line
-	7000 5850 7150 5850
+	6950 5050 6950 5850
 Connection ~ 7450 5050
-Connection ~ 7150 5850
 Wire Wire Line
 	5950 1850 5950 2600
 Wire Wire Line
@@ -2431,13 +2414,13 @@ $EndComp
 $Comp
 L GanJing_components:MX_2.25u_no_LED_flipped_stabs MX73
 U 1 1 61A6CF50
-P 7150 5600
-F 0 "MX73" H 7200 5700 50  0000 C CNN
-F 1 "MX_2.25u_no_LED_flipped_stabs" H 7150 5600 50  0001 C CNN
-F 2 "GanJing_components:MX_2.25u_no_LED_flipped_stabs" H 7150 5600 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 7150 5600 50  0001 C CNN
-F 4 "2.25u" H 7300 5450 50  0000 C CNN "Size"
-	1    7150 5600
+P 7100 5600
+F 0 "MX73" H 7150 5700 50  0000 C CNN
+F 1 "MX_2.25u_no_LED_flipped_stabs" H 7100 5600 50  0001 C CNN
+F 2 "GanJing_components:MX_2.25u_no_LED_flipped_stabs" H 7100 5600 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 7100 5600 50  0001 C CNN
+F 4 "2.25u" H 7250 5450 50  0000 C CNN "Size"
+	1    7100 5600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2455,13 +2438,13 @@ $EndComp
 $Comp
 L GanJing_components:MX_2.75u_no_LED_flipped_stabs MX75
 U 1 1 61A6D9EF
-P 7800 5600
-F 0 "MX75" H 7850 5700 50  0000 C CNN
-F 1 "MX_2.75u_no_LED_flipped_stabs" H 7800 5600 50  0001 C CNN
-F 2 "GanJing_components:MX_2.75u_no_LED_flipped_stabs" H 7800 5600 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 7800 5600 50  0001 C CNN
-F 4 "2.75u" H 7950 5450 50  0000 C CNN "Size"
-	1    7800 5600
+P 7850 5600
+F 0 "MX75" H 7900 5700 50  0000 C CNN
+F 1 "MX_2.75u_no_LED_flipped_stabs" H 7850 5600 50  0001 C CNN
+F 2 "GanJing_components:MX_2.75u_no_LED_flipped_stabs" H 7850 5600 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 7850 5600 50  0001 C CNN
+F 4 "2.75u" H 8000 5450 50  0000 C CNN "Size"
+	1    7850 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2739,4 +2722,25 @@ Wire Wire Line
 	10500 1850 10550 1850
 Wire Wire Line
 	2050 3150 2050 3100
+Wire Wire Line
+	6950 5050 7450 5050
+Wire Wire Line
+	6950 5850 7100 5850
+Wire Wire Line
+	7100 5800 7100 5850
+Connection ~ 7100 5850
+Wire Wire Line
+	7100 5850 7450 5850
+Wire Wire Line
+	7850 5850 7850 5800
+Wire Wire Line
+	7450 5850 7850 5850
+Wire Wire Line
+	8050 5600 8100 5600
+Wire Wire Line
+	8100 5600 8100 5450
+Wire Wire Line
+	7700 5450 8100 5450
+Wire Wire Line
+	7350 5600 7300 5600
 $EndSCHEMATC

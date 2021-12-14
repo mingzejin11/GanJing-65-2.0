@@ -2510,4 +2510,79 @@ Wire Wire Line
 	10250 2050 10250 2000
 Wire Wire Line
 	10250 2000 10300 2000
+$Comp
+L GanJing_components:MX_2.75u_no_LED_flipped_stabs MX71
+U 1 1 61BAD7B9
+P 7100 5650
+F 0 "MX71" H 7150 5750 50  0000 C CNN
+F 1 "MX_2.75u_no_LED_flipped_stabs" H 7100 5650 50  0001 C CNN
+F 2 "GanJing_components:MX_2.75u_no_LED_hotswap_flipped_stabs" H 7100 5650 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 7100 5650 50  0001 C CNN
+F 4 "2.75u" H 7250 5500 50  0000 C CNN "Size"
+	1    7100 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GanJing_components:MX_2.25u_no_LED_flipped_stabs MX73
+U 1 1 61BADF1C
+P 7800 5650
+F 0 "MX73" H 7850 5750 50  0000 C CNN
+F 1 "MX_2.25u_no_LED_flipped_stabs" H 7800 5650 50  0001 C CNN
+F 2 "GanJing_components:MX_2.25u_no_LED_hotswap_flipped_stabs" H 7800 5650 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 7800 5650 50  0001 C CNN
+F 4 "2.25u" H 7950 5500 50  0000 C CNN "Size"
+	1    7800 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GanJing_components:MX_1.25u_no_LED MX72
+U 1 1 61BAF1B1
+P 7450 5650
+F 0 "MX72" H 7500 5750 50  0000 C CNN
+F 1 "MX_1.25u_no_LED" H 7450 5650 50  0001 C CNN
+F 2 "GanJing_components:MX_1.25u_no_LED_hotswap" H 7450 5650 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 7450 5650 50  0001 C CNN
+F 4 "1.25u" H 7600 5500 50  0000 C CNN "Size"
+	1    7450 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 5050 6950 5050
+Wire Wire Line
+	6950 5050 6950 5900
+Wire Wire Line
+	6950 5900 7100 5900
+Wire Wire Line
+	7800 5900 7800 5850
+Connection ~ 7450 5050
+Wire Wire Line
+	7450 5850 7450 5900
+Connection ~ 7450 5900
+Wire Wire Line
+	7450 5900 7800 5900
+Wire Wire Line
+	7100 5850 7100 5900
+Connection ~ 7100 5900
+Wire Wire Line
+	7100 5900 7450 5900
+Wire Wire Line
+	7700 4850 7700 5450
+Wire Wire Line
+	7700 5650 7650 5650
+Connection ~ 7700 4850
+Wire Wire Line
+	8000 5650 8050 5650
+Wire Wire Line
+	8050 5650 8050 5450
+Wire Wire Line
+	8050 5450 7700 5450
+Connection ~ 7700 5450
+Wire Wire Line
+	7700 5450 7700 5650
+Wire Wire Line
+	7350 5450 7350 5650
+Wire Wire Line
+	7350 5650 7300 5650
+Wire Wire Line
+	7700 5450 7350 5450
 $EndSCHEMATC

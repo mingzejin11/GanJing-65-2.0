@@ -178,12 +178,46 @@ X ROW 2 0 -200 100 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# GanJing_components_MX_2.25u_no_LED_flipped_stabs
+#
+DEF GanJing_components_MX_2.25u_no_LED_flipped_stabs MX? 0 40 Y Y 1 F N
+F0 "MX?" 50 100 50 H V C CNN
+F1 "GanJing_components_MX_2.25u_no_LED_flipped_stabs" 0 0 50 H I C CNN
+F2 "GanJing_components:MX_2.25u_no_LED_flipped_stabs" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "2.25u" 150 -150 50 H V C CNN "Size"
+DRAW
+S -50 50 100 -100 1 1 0 N
+P 2 1 1 5 0 -100 0 0 N
+P 3 1 1 5 100 0 50 0 0 25 N
+X COL 1 200 0 100 L 0 0 1 1 P
+X ROW 2 0 -200 100 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # GanJing_components_MX_2.75u_no_LED
 #
 DEF GanJing_components_MX_2.75u_no_LED MX? 0 40 Y Y 1 F N
 F0 "MX?" 50 100 50 H V C CNN
 F1 "GanJing_components_MX_2.75u_no_LED" 0 0 50 H I C CNN
 F2 "GanJing_components:MX_2.75u_no_LED" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "2.75u" 150 -150 50 H V C CNN "Size"
+DRAW
+S -50 50 100 -100 1 1 0 N
+P 2 1 1 5 0 -100 0 0 N
+P 3 1 1 5 100 0 50 0 0 25 N
+X COL 1 200 0 100 L 0 0 1 1 P
+X ROW 2 0 -200 100 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GanJing_components_MX_2.75u_no_LED_flipped_stabs
+#
+DEF GanJing_components_MX_2.75u_no_LED_flipped_stabs MX? 0 40 Y Y 1 F N
+F0 "MX?" 50 100 50 H V C CNN
+F1 "GanJing_components_MX_2.75u_no_LED_flipped_stabs" 0 0 50 H I C CNN
+F2 "GanJing_components:MX_2.75u_no_LED_flipped_stabs" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "2.75u" 150 -150 50 H V C CNN "Size"
 DRAW
