@@ -9,7 +9,6 @@ BOOTLOADER = atmel-dfu
 
 # Build Options
 #   change yes to no to disable
-#
 BOOTMAGIC_ENABLE = lite     # Enable Bootmagic Lite
 MOUSEKEY_ENABLE = yes       # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
@@ -24,5 +23,8 @@ NKRO_ENABLE = no            # USB Nkey Rollover
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
+ENCODER_ENABLE = yes		# Enable use of rotory knob
+OLED_ENABLE = yes			# Enable use of OLED display
+WPM_ENABLE = yes			# Calculates the words per minute as a rolling average of your keystrokes and outputs as an unsigned integer
 
-LAYOUTS = 65_ansi 65_ansi_blocker 65_iso 65_iso_blocker
+LAYOUTS = solder hotswap

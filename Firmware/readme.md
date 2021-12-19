@@ -1,11 +1,11 @@
-# GanJing 65
+# GanJing 70
 
-![GanJing 65](https://github.com/mingzejin11/GanJing-65-2.0/blob/main/Images/GanJing_65_rev_2.0_layout.png)
+![GanJing 70](https://github.com/mingzejin11/GanJing-65-2.0/blob/main/Images/GanJing_65_rev_2.0_layout.png)
 
-A 65% keyboard that can be assembled with only through hole components, including usb type-c and the Elite-C V4
+A 70% keyboard that can be assembled with only through hole components, including usb type-c and the Elite-C V4
 
 * Keyboard Maintainer: [mingzejin11](https://github.com/mingzejin11)
-* Hardware Supported: GanJing 65, atmega32u4
+* Hardware Supported: GanJing 70, atmega32u4
 * Hardware Availability: [GitHub](https://github.com/mingzejin11/GanJing-65-2.0)
 
 Make example for this keyboard (after setting up your build environment):

@@ -18,29 +18,21 @@
 
 #include "config_common.h"
 
+/* USB Device descriptor parameter */
 #define VENDOR_ID       0x6B62
 #define PRODUCT_ID      0x6869
-#define DEVICE_VER      0x0001
+#define DEVICE_VER      0x0002
 #define MANUFACTURER    mingzejin11
-#define PRODUCT         GanJing 65
+#define PRODUCT         GanJing 70
+#define DESCRIPTION     70% keyboard designed by Mingze Jin
 
-/* key matrix size */
+/* Keyboard matrix size */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 15
 
-/*
- * Keyboard Matrix Assignments
- *
- * Change this to how you wired your keyboard
- * COLS: AVR pins used for columns, left to right
- * ROWS: AVR pins used for rows, top to bottom
- * DIODE_DIRECTION: COL2ROW = COL = Anode (+), ROW = Cathode (-, marked on diode)
- *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
- *
- */
-
-#define MATRIX_ROW_PINS {B0, E6, D7, C6, D4}
-#define MATRIX_COL_PINS {F4, F5, F6, F7, B1, B3, B2, B6, F0, F1, C7, D5, B7, B5, B4}
+/* Keyboard matrix pins */
+#define MATRIX_ROW_PINS { B0, E6, D7, C6, D4 }
+#define MATRIX_COL_PINS { F4, F5, F6, F7, B1, B3, B2, B6, F0, F1, C7, D5, B7, B5, B4 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL*/
@@ -48,54 +40,30 @@
 
 #define USB_MAX_POWER_CONSUMPTION 100
 
-/*
- * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.
- */
-// #define SOFT_SERIAL_PIN D0 // or D1, D2, D3, E6
+/* Encoder pad definition */
+#define ENCODERS_PAD_A { D3 }
+#define ENCODERS_PAD_B { D2 }
+#define ENCODER_RESOLUTION 4
 
-// #define BACKLIGHT_PIN B7
-// #define BACKLIGHT_BREATHING
-// #define BACKLIGHT_LEVELS 3
+/* Enable the OLED driver */
+#ifdef OLED_DRIVER_ENABLE
+    #define OLED_DISPLAY_128X64
+    #define OLED_TIMEOUT 300000 // Measured in milliseconds = 5 minutes
+#endif
 
-// #define RGB_DI_PIN E2
-// #ifdef RGB_DI_PIN
-//   #define RGBLED_NUM 16
-//   #define RGBLIGHT_HUE_STEP 8
-//   #define RGBLIGHT_SAT_STEP 8
-//   #define RGBLIGHT_VAL_STEP 8
-//   #define RGBLIGHT_LIMIT_VAL 255 /* The maximum brightness level */
-//   #define RGBLIGHT_SLEEP  /* If defined, the RGB lighting will be switched off when the host goes to sleep */
-// /*== all animations enable ==*/
-//   #define RGBLIGHT_ANIMATIONS
-// /*== or choose animations ==*/
-//   #define RGBLIGHT_EFFECT_BREATHING
-//   #define RGBLIGHT_EFFECT_RAINBOW_MOOD
-//   #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
-//   #define RGBLIGHT_EFFECT_SNAKE
-//   #define RGBLIGHT_EFFECT_KNIGHT
-//   #define RGBLIGHT_EFFECT_CHRISTMAS
-//   #define RGBLIGHT_EFFECT_STATIC_GRADIENT
-//   #define RGBLIGHT_EFFECT_RGB_TEST
-//   #define RGBLIGHT_EFFECT_ALTERNATING
-// #endif
+/* Enable the email address macro */
+#define EMAIL_ENABLE
+#ifdef EMAIL_ENABLE
+    #define EMAIL_ADDRESS "mingze.jin11@gmail.com"
+#endif
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
-
-/* define if matrix has ghost (lacks anti-ghosting diodes) */
-//#define MATRIX_HAS_GHOST
-
-/* number of backlight levels */
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 #define LOCKING_SUPPORT_ENABLE
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
-
-/* If defined, GRAVE_ESC will always act as ESC when CTRL is held.
- * This is userful for the Windows task manager shortcut (ctrl+shift+esc).
- */
-// #define GRAVE_ESC_CTRL_OVERRIDE
 
 /*
  * Force NKRO
@@ -139,4 +107,3 @@
 /* Bootmagic Lite key configuration */
 #define BOOTMAGIC_LITE_ROW 0
 #define BOOTMAGIC_LITE_COLUMN 0
-
