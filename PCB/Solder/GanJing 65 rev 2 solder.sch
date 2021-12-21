@@ -1387,10 +1387,10 @@ F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 535
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GanJing_components:MX_1.25u_no_LED MX60
+L GanJing_components:MX_1.25u_no_LED MX59
 U 1 1 61A53FDB
 P 5350 4850
-F 0 "MX60" H 5400 4950 50  0000 C CNN
+F 0 "MX59" H 5400 4950 50  0000 C CNN
 F 1 "MX_1.25u_no_LED" H 5350 4850 50  0001 C CNN
 F 2 "GanJing_components:MX_1.25u_no_LED" H 5350 4850 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 5350 4850 50  0001 C CNN
@@ -1399,10 +1399,10 @@ F 4 "1.25u" H 5500 4700 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:MX_1.25u_no_LED MX61
+L GanJing_components:MX_1.25u_no_LED MX60
 U 1 1 61A54800
 P 5700 4850
-F 0 "MX61" H 5750 4950 50  0000 C CNN
+F 0 "MX60" H 5750 4950 50  0000 C CNN
 F 1 "MX_1.25u_no_LED" H 5700 4850 50  0001 C CNN
 F 2 "GanJing_components:MX_1.25u_no_LED" H 5700 4850 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 5700 4850 50  0001 C CNN
@@ -1411,10 +1411,10 @@ F 4 "1.25u" H 5850 4700 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:MX_1.25u_no_LED MX62
+L GanJing_components:MX_1.25u_no_LED MX61
 U 1 1 61A54F33
 P 6050 4850
-F 0 "MX62" H 6100 4950 50  0000 C CNN
+F 0 "MX61" H 6100 4950 50  0000 C CNN
 F 1 "MX_1.25u_no_LED" H 6050 4850 50  0001 C CNN
 F 2 "GanJing_components:MX_1.25u_no_LED" H 6050 4850 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 6050 4850 50  0001 C CNN
@@ -1423,10 +1423,10 @@ F 4 "1.25u" H 6200 4700 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:1N4148TR_diode D61
+L GanJing_components:1N4148TR_diode D60
 U 1 1 61A573D8
 P 5700 5200
-F 0 "D61" V 5700 5120 50  0000 R CNN
+F 0 "D60" V 5700 5120 50  0000 R CNN
 F 1 "1N4148TR_diode" H 5700 5100 50  0001 C CNN
 F 2 "GanJing_components:1N4148TR_diode" H 5700 5200 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 5700 5200 50  0001 C CNN
@@ -1434,10 +1434,10 @@ F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 570
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GanJing_components:1N4148TR_diode D62
+L GanJing_components:1N4148TR_diode D61
 U 1 1 61A573DE
 P 6050 5200
-F 0 "D62" V 6050 5120 50  0000 R CNN
+F 0 "D61" V 6050 5120 50  0000 R CNN
 F 1 "1N4148TR_diode" H 6050 5100 50  0001 C CNN
 F 2 "GanJing_components:1N4148TR_diode" H 6050 5200 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 6050 5200 50  0001 C CNN
@@ -1445,10 +1445,10 @@ F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 605
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GanJing_components:1N4148TR_diode D60
+L GanJing_components:1N4148TR_diode D59
 U 1 1 61A573E4
 P 5350 5200
-F 0 "D60" V 5350 5120 50  0000 R CNN
+F 0 "D59" V 5350 5120 50  0000 R CNN
 F 1 "1N4148TR_diode" H 5350 5100 50  0001 C CNN
 F 2 "GanJing_components:1N4148TR_diode" H 5350 5200 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 5350 5200 50  0001 C CNN
@@ -1456,10 +1456,10 @@ F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 535
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GanJing_components:MX_6.25u_no_LED_flipped_stabs MX63
+L GanJing_components:MX_6.25u_no_LED_flipped_stabs MX62
 U 1 1 61A5D64C
 P 7450 4850
-F 0 "MX63" H 7500 4950 50  0000 C CNN
+F 0 "MX62" H 7500 4950 50  0000 C CNN
 F 1 "MX_6.25u_no_LED_flipped_stabs" H 7450 4850 50  0001 C CNN
 F 2 "GanJing_components:MX_6.25u_no_LED_flipped_stabs" H 7450 4850 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 7450 4850 50  0001 C CNN
@@ -1468,10 +1468,10 @@ F 4 "6.25u" H 7600 4700 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:1N4148TR_diode D63
+L GanJing_components:1N4148TR_diode D62
 U 1 1 61A60A62
 P 7450 5200
-F 0 "D63" V 7450 5120 50  0000 R CNN
+F 0 "D62" V 7450 5120 50  0000 R CNN
 F 1 "1N4148TR_diode" H 7450 5100 50  0001 C CNN
 F 2 "GanJing_components:1N4148TR_diode" H 7450 5200 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 7450 5200 50  0001 C CNN
@@ -1495,10 +1495,10 @@ Connection ~ 5700 5400
 Wire Wire Line
 	5700 5400 6050 5400
 $Comp
-L GanJing_components:MX_1u_no_LED MX64
+L GanJing_components:MX_1u_no_LED MX63
 U 1 1 61A7B327
 P 8150 4850
-F 0 "MX64" H 8200 4950 50  0000 C CNN
+F 0 "MX63" H 8200 4950 50  0000 C CNN
 F 1 "MX_1u_no_LED" H 8150 4850 50  0001 C CNN
 F 2 "GanJing_components:MX_1u_no_LED" H 8150 4850 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 8150 4850 50  0001 C CNN
@@ -1507,10 +1507,10 @@ F 4 "1u" H 8250 4700 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:MX_1u_no_LED MX65
+L GanJing_components:MX_1u_no_LED MX64
 U 1 1 61A7BCE2
 P 8500 4850
-F 0 "MX65" H 8550 4950 50  0000 C CNN
+F 0 "MX64" H 8550 4950 50  0000 C CNN
 F 1 "MX_1u_no_LED" H 8500 4850 50  0001 C CNN
 F 2 "GanJing_components:MX_1u_no_LED" H 8500 4850 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 8500 4850 50  0001 C CNN
@@ -1519,10 +1519,10 @@ F 4 "1u" H 8600 4700 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:MX_1u_no_LED MX66
+L GanJing_components:MX_1u_no_LED MX65
 U 1 1 61A7C10B
 P 8850 4850
-F 0 "MX66" H 8900 4950 50  0000 C CNN
+F 0 "MX65" H 8900 4950 50  0000 C CNN
 F 1 "MX_1u_no_LED" H 8850 4850 50  0001 C CNN
 F 2 "GanJing_components:MX_1u_no_LED" H 8850 4850 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 8850 4850 50  0001 C CNN
@@ -1531,10 +1531,10 @@ F 4 "1u" H 8950 4700 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:MX_1u_no_LED MX67
+L GanJing_components:MX_1u_no_LED MX66
 U 1 1 61A7C5A2
 P 9200 4850
-F 0 "MX67" H 9250 4950 50  0000 C CNN
+F 0 "MX66" H 9250 4950 50  0000 C CNN
 F 1 "MX_1u_no_LED" H 9200 4850 50  0001 C CNN
 F 2 "GanJing_components:MX_1u_no_LED" H 9200 4850 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 9200 4850 50  0001 C CNN
@@ -1543,10 +1543,10 @@ F 4 "1u" H 9300 4700 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:MX_1u_no_LED MX68
+L GanJing_components:MX_1u_no_LED MX67
 U 1 1 61A7CA2F
 P 9550 4850
-F 0 "MX68" H 9600 4950 50  0000 C CNN
+F 0 "MX67" H 9600 4950 50  0000 C CNN
 F 1 "MX_1u_no_LED" H 9550 4850 50  0001 C CNN
 F 2 "GanJing_components:MX_1u_no_LED" H 9550 4850 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 9550 4850 50  0001 C CNN
@@ -1555,10 +1555,10 @@ F 4 "1u" H 9650 4700 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:MX_1u_no_LED MX69
+L GanJing_components:MX_1u_no_LED MX68
 U 1 1 61A7CF76
 P 9900 4850
-F 0 "MX69" H 9950 4950 50  0000 C CNN
+F 0 "MX68" H 9950 4950 50  0000 C CNN
 F 1 "MX_1u_no_LED" H 9900 4850 50  0001 C CNN
 F 2 "GanJing_components:MX_1u_no_LED" H 9900 4850 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 9900 4850 50  0001 C CNN
@@ -1567,10 +1567,10 @@ F 4 "1u" H 10000 4700 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:MX_1u_no_LED MX70
+L GanJing_components:MX_1u_no_LED MX69
 U 1 1 61A7D351
 P 10250 4850
-F 0 "MX70" H 10300 4950 50  0000 C CNN
+F 0 "MX69" H 10300 4950 50  0000 C CNN
 F 1 "MX_1u_no_LED" H 10250 4850 50  0001 C CNN
 F 2 "GanJing_components:MX_1u_no_LED" H 10250 4850 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 10250 4850 50  0001 C CNN
@@ -1579,10 +1579,10 @@ F 4 "1u" H 10350 4700 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:1N4148TR_diode D64
+L GanJing_components:1N4148TR_diode D63
 U 1 1 61A82839
 P 8150 5200
-F 0 "D64" V 8150 5120 50  0000 R CNN
+F 0 "D63" V 8150 5120 50  0000 R CNN
 F 1 "1N4148TR_diode" H 8150 5100 50  0001 C CNN
 F 2 "GanJing_components:1N4148TR_diode" H 8150 5200 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 8150 5200 50  0001 C CNN
@@ -1590,10 +1590,10 @@ F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 815
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GanJing_components:1N4148TR_diode D65
+L GanJing_components:1N4148TR_diode D64
 U 1 1 61A8283F
 P 8500 5200
-F 0 "D65" V 8500 5120 50  0000 R CNN
+F 0 "D64" V 8500 5120 50  0000 R CNN
 F 1 "1N4148TR_diode" H 8500 5100 50  0001 C CNN
 F 2 "GanJing_components:1N4148TR_diode" H 8500 5200 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 8500 5200 50  0001 C CNN
@@ -1601,10 +1601,10 @@ F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GanJing_components:1N4148TR_diode D66
+L GanJing_components:1N4148TR_diode D65
 U 1 1 61A82845
 P 8850 5200
-F 0 "D66" V 8850 5120 50  0000 R CNN
+F 0 "D65" V 8850 5120 50  0000 R CNN
 F 1 "1N4148TR_diode" H 8850 5100 50  0001 C CNN
 F 2 "GanJing_components:1N4148TR_diode" H 8850 5200 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 8850 5200 50  0001 C CNN
@@ -1612,10 +1612,10 @@ F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 885
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GanJing_components:1N4148TR_diode D67
+L GanJing_components:1N4148TR_diode D66
 U 1 1 61A8284B
 P 9200 5200
-F 0 "D67" V 9200 5120 50  0000 R CNN
+F 0 "D66" V 9200 5120 50  0000 R CNN
 F 1 "1N4148TR_diode" H 9200 5100 50  0001 C CNN
 F 2 "GanJing_components:1N4148TR_diode" H 9200 5200 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 9200 5200 50  0001 C CNN
@@ -1623,10 +1623,10 @@ F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 920
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GanJing_components:1N4148TR_diode D68
+L GanJing_components:1N4148TR_diode D67
 U 1 1 61A82851
 P 9550 5200
-F 0 "D68" V 9550 5120 50  0000 R CNN
+F 0 "D67" V 9550 5120 50  0000 R CNN
 F 1 "1N4148TR_diode" H 9550 5100 50  0001 C CNN
 F 2 "GanJing_components:1N4148TR_diode" H 9550 5200 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 9550 5200 50  0001 C CNN
@@ -1634,10 +1634,10 @@ F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 955
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GanJing_components:1N4148TR_diode D69
+L GanJing_components:1N4148TR_diode D68
 U 1 1 61A82857
 P 9900 5200
-F 0 "D69" V 9900 5120 50  0000 R CNN
+F 0 "D68" V 9900 5120 50  0000 R CNN
 F 1 "1N4148TR_diode" H 9900 5100 50  0001 C CNN
 F 2 "GanJing_components:1N4148TR_diode" H 9900 5200 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 9900 5200 50  0001 C CNN
@@ -1645,10 +1645,10 @@ F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 990
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GanJing_components:1N4148TR_diode D70
+L GanJing_components:1N4148TR_diode D69
 U 1 1 61A85465
 P 10250 5200
-F 0 "D70" V 10250 5120 50  0000 R CNN
+F 0 "D69" V 10250 5120 50  0000 R CNN
 F 1 "1N4148TR_diode" H 10250 5100 50  0001 C CNN
 F 2 "GanJing_components:1N4148TR_diode" H 10250 5200 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 10250 5200 50  0001 C CNN
@@ -1722,10 +1722,10 @@ F 4 "2.25u" H 10050 3200 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:MX_ISO_no_LED_flipped_stabs MX58
+L GanJing_components:MX_ISO_no_LED_flipped_stabs MX75
 U 1 1 61AA49D8
 P 9900 4100
-F 0 "MX58" H 9950 4200 50  0000 C CNN
+F 0 "MX75" H 9950 4200 50  0000 C CNN
 F 1 "MX_ISO_no_LED_flipped_stabs" H 9900 4100 50  0001 C CNN
 F 2 "GanJing_components:MX_ISO_no_LED_flipped_stabs" H 9900 4100 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 9900 4100 50  0001 C CNN
@@ -1758,10 +1758,10 @@ F 4 "2.75u" H 9700 3950 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:MX_1u_no_LED MX59
+L GanJing_components:MX_1u_no_LED MX58
 U 1 1 61AA9EDA
 P 10250 4100
-F 0 "MX59" H 10300 4200 50  0000 C CNN
+F 0 "MX58" H 10300 4200 50  0000 C CNN
 F 1 "MX_1u_no_LED" H 10250 4100 50  0001 C CNN
 F 2 "GanJing_components:MX_1u_no_LED" H 10250 4100 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 10250 4100 50  0001 C CNN
@@ -1839,20 +1839,9 @@ F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 955
 $EndComp
 $Comp
 L GanJing_components:1N4148TR_diode D58
-U 1 1 61AB0816
-P 9900 4450
-F 0 "D58" V 9900 4370 50  0000 R CNN
-F 1 "1N4148TR_diode" H 9900 4350 50  0001 C CNN
-F 2 "GanJing_components:1N4148TR_diode" H 9900 4450 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 9900 4450 50  0001 C CNN
-	1    9900 4450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GanJing_components:1N4148TR_diode D59
 U 1 1 61AB081C
 P 10250 4450
-F 0 "D59" V 10250 4370 50  0000 R CNN
+F 0 "D58" V 10250 4370 50  0000 R CNN
 F 1 "1N4148TR_diode" H 10250 4350 50  0001 C CNN
 F 2 "GanJing_components:1N4148TR_diode" H 10250 4450 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 10250 4450 50  0001 C CNN
@@ -1923,15 +1912,8 @@ Connection ~ 9200 4650
 Wire Wire Line
 	10250 4600 10250 4650
 Wire Wire Line
-	9900 4600 9900 4650
-Connection ~ 9900 4650
-Wire Wire Line
-	9900 4650 10250 4650
-Wire Wire Line
 	9550 4600 9550 4650
 Connection ~ 9550 4650
-Wire Wire Line
-	9550 4650 9900 4650
 Wire Wire Line
 	5700 4650 5350 4650
 Wire Wire Line
@@ -2234,14 +2216,7 @@ Connection ~ 9800 4100
 Wire Wire Line
 	10100 4850 10150 4850
 Wire Wire Line
-	10150 4850 10150 4100
-Wire Wire Line
 	10150 3350 10100 3350
-Wire Wire Line
-	10100 4100 10150 4100
-Connection ~ 10150 4100
-Wire Wire Line
-	10150 4100 10150 3350
 Wire Wire Line
 	10450 4850 10500 4850
 Wire Wire Line
@@ -2377,10 +2352,10 @@ S1
 Text GLabel 10550 2050 2    50   Input ~ 0
 S2
 $Comp
-L GanJing_components:1N4148TR_diode D71
+L GanJing_components:1N4148TR_diode D70
 U 1 1 62168B1D
 P 10250 2200
-F 0 "D71" V 10250 2120 50  0000 R CNN
+F 0 "D70" V 10250 2120 50  0000 R CNN
 F 1 "1N4148TR_diode" H 10250 2100 50  0001 C CNN
 F 2 "GanJing_components:1N4148TR_diode" H 10250 2200 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 10250 2200 50  0001 C CNN
@@ -2388,10 +2363,10 @@ F 3 "https://datasheet.octopart.com/1N4148TR-Vishay-datasheet-5439766.pdf" H 102
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GanJing_components:MX_1.75u_stepped_no_LED MX71
+L GanJing_components:MX_1.75u_stepped_no_LED MX70
 U 1 1 61A3B19D
 P 5000 3350
-F 0 "MX71" H 5050 3450 50  0000 C CNN
+F 0 "MX70" H 5050 3450 50  0000 C CNN
 F 1 "MX_1.75u_stepped_no_LED" H 5000 3350 50  0001 C CNN
 F 2 "GanJing_components:MX_1.75u_stepped_no_LED" H 5000 3350 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 5000 3350 50  0001 C CNN
@@ -2400,10 +2375,10 @@ F 4 "1.75u" H 5150 3200 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:MX_1.25u_no_LED MX72
+L GanJing_components:MX_1.25u_no_LED MX71
 U 1 1 61A53577
 P 5000 4100
-F 0 "MX72" H 5050 4200 50  0000 C CNN
+F 0 "MX71" H 5050 4200 50  0000 C CNN
 F 1 "MX_1.25u_no_LED" H 5000 4100 50  0001 C CNN
 F 2 "GanJing_components:MX_1.25u_no_LED" H 5000 4100 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 5000 4100 50  0001 C CNN
@@ -2412,10 +2387,10 @@ F 4 "1.25u" H 5150 3950 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:MX_2.25u_no_LED_flipped_stabs MX73
+L GanJing_components:MX_2.25u_no_LED_flipped_stabs MX72
 U 1 1 61A6CF50
 P 7100 5600
-F 0 "MX73" H 7150 5700 50  0000 C CNN
+F 0 "MX72" H 7150 5700 50  0000 C CNN
 F 1 "MX_2.25u_no_LED_flipped_stabs" H 7100 5600 50  0001 C CNN
 F 2 "GanJing_components:MX_2.25u_no_LED_flipped_stabs" H 7100 5600 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 7100 5600 50  0001 C CNN
@@ -2424,10 +2399,10 @@ F 4 "2.25u" H 7250 5450 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:MX_1.25u_no_LED MX74
+L GanJing_components:MX_1.25u_no_LED MX73
 U 1 1 61A6B249
 P 7450 5600
-F 0 "MX74" H 7500 5700 50  0000 C CNN
+F 0 "MX73" H 7500 5700 50  0000 C CNN
 F 1 "MX_1.25u_no_LED" H 7450 5600 50  0001 C CNN
 F 2 "GanJing_components:MX_1.25u_no_LED" H 7450 5600 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 7450 5600 50  0001 C CNN
@@ -2436,10 +2411,10 @@ F 4 "1.25u" H 7600 5450 50  0000 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GanJing_components:MX_2.75u_no_LED_flipped_stabs MX75
+L GanJing_components:MX_2.75u_no_LED_flipped_stabs MX74
 U 1 1 61A6D9EF
 P 7850 5600
-F 0 "MX75" H 7900 5700 50  0000 C CNN
+F 0 "MX74" H 7900 5700 50  0000 C CNN
 F 1 "MX_2.75u_no_LED_flipped_stabs" H 7850 5600 50  0001 C CNN
 F 2 "GanJing_components:MX_2.75u_no_LED_flipped_stabs" H 7850 5600 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MX1A-11NW-Cherry-datasheet-34676.pdf" H 7850 5600 50  0001 C CNN
@@ -2743,4 +2718,20 @@ Wire Wire Line
 	7700 5450 8100 5450
 Wire Wire Line
 	7350 5600 7300 5600
+Wire Wire Line
+	10150 3350 10150 4850
+Wire Wire Line
+	9550 4650 10250 4650
+Wire Wire Line
+	9900 4300 9900 4350
+Wire Wire Line
+	9900 4350 9850 4350
+Wire Wire Line
+	9850 4350 9850 3550
+Wire Wire Line
+	9850 3550 9900 3550
+Connection ~ 9900 3550
+Wire Wire Line
+	10100 3350 10100 4100
+Connection ~ 10100 3350
 $EndSCHEMATC

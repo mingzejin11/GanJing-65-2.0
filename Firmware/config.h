@@ -46,16 +46,8 @@
 #define ENCODER_RESOLUTION 4
 
 /* Enable the OLED driver */
-#ifdef OLED_DRIVER_ENABLE
-    #define OLED_DISPLAY_128X64
-    #define OLED_TIMEOUT 300000 // Measured in milliseconds = 5 minutes
-#endif
-
-/* Enable the email address macro */
-#define EMAIL_ENABLE
-#ifdef EMAIL_ENABLE
-    #define EMAIL_ADDRESS "mingze.jin11@gmail.com"
-#endif
+#define OLED_DISPLAY_128X64
+#define OLED_TIMEOUT 300000 // Measured in milliseconds = 5 minutes
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
