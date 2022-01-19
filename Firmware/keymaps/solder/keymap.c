@@ -121,7 +121,7 @@ oled_rotation_t oled_init_user(oled_rotation_t rotation) {
 // Variables to determine animation frame length
 #define ANIM_FRAME_DURATION_MAX 500 	// Longest animation duration in ms
 #define ANIM_FRAME_DURATION_MIN 100 	// Shortest animation duration in ms
-#define SLEEPING_FRAME_DURATION 200 	// Base value for how long each idle animation will last in ms
+#define SLEEPING_FRAME_DURATION 500 	// Base value for how long each idle animation will last in ms
 #define ANIM_FRAME_RATIO 2.5 			// How aggressively animation speeds up with wpm
 
 // Math to determine the animation duration
@@ -662,4 +662,9 @@ static void render_anim(void) {
 
 void oled_task_user(void) {
 	render_anim();
+
+	// Prints the current WPM
+	oled_set_cursor(13, 1);
+	sprintf(wpm_str, "WPM: %03d", get_current_wpm());
+	oled_write(wpm_str, false);
 }
