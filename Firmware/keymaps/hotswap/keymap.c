@@ -664,7 +664,7 @@ void oled_task_user(void) {
 	render_anim();
 
 	// Prints the current WPM
-	oled_set_cursor(0, 6);
+	oled_set_cursor(13, 1);
 	sprintf(wpm_str, "WPM: %03d", get_current_wpm());
 	oled_write(wpm_str, false);
 }
