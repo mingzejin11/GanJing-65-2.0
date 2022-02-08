@@ -60,7 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 // Encoder function definition
-void encoder_update(uint8_t index, bool clockwise) {
+bool encoder_update_user(uint8_t index, bool clockwise) {
 	// On function layer, knob controls brightness
 	if (IS_LAYER_ON(FN)) {
 		if (clockwise) {
@@ -77,6 +77,8 @@ void encoder_update(uint8_t index, bool clockwise) {
 			tap_code(KC_VOLD);
 		}
 	}
+
+	return false;
 }
 
 // Macro functions
