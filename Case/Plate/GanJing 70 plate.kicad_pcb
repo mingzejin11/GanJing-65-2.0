@@ -752,7 +752,7 @@
   (dimension (type aligned) (layer "F.Fab") (tstamp c137e13c-062c-49ed-9a27-1d09301fa082)
     (pts (xy 280.300001 104.925001) (xy 280.300001 212.125001))
     (height -112.099999)
-    (gr_text "107.2000 mm" (at 390.6 158.525001 90) (layer "F.Fab") (tstamp ff541bea-daa9-47d8-8a4a-83c86d01fb6f)
+    (gr_text "107.2000 mm" (at 390.6 158.525001 90) (layer "F.Fab") (tstamp c137e13c-062c-49ed-9a27-1d09301fa082)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (format (units 3) (units_format 1) (precision 4))
