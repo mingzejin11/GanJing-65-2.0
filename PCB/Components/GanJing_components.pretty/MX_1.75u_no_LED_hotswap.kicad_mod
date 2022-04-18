@@ -1,6 +1,6 @@
 (footprint "MX_1.75u_no_LED_hotswap" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61FD7079)
+  (tedit 625DCF71)
   (descr "1.75u MX hotswap switch")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -8) (layer "F.Fab")
@@ -47,4 +47,9 @@
   (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask) (tstamp b9a8ff4c-342a-4f44-bfb4-1b1895e9679b))
   (pad "1" smd rect (at 5.842 -5.08) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp b1825d49-73d7-4dd8-9c37-527914165326))
   (pad "2" smd rect (at -7.085 -2.54) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 8a3c4457-d556-4ea3-9b77-55afc48d2d38))
+  (model "C:/Users/Salmata Barrie/Documents/GanJing-65-2.0/PCB/Components/GanJing_components.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

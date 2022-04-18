@@ -1,4 +1,4 @@
-19875696821839232
+19879219884865906
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52143,6 +52143,13 @@ GanJing keyboard half logo
 0
 0
 GanJing_components
+Logo
+
+
+0
+0
+0
+GanJing_components
 MX_1.5u_no_LED
 1.5u MX switch
 
@@ -52220,6 +52227,13 @@ MX_1u_no_LED_hotswap
 2
 2
 GanJing_components
+MX_1u_no_LED_hotswap_flipped_pins
+1u MX hotswap switcwith flipped pins
+
+0
+2
+2
+GanJing_components
 MX_2.25u_no_LED
 2.25u MX switch
 
@@ -52248,8 +52262,8 @@ MX_2.25u_no_LED_hotswap_flipped_stabs
 2
 2
 GanJing_components
-MX_2.25u_no_LED_hotswap_rotated
-2.25u MX hotswap switch rotated
+MX_2.25u_no_LED_hotswap_rotated_flipped_stabs
+2.25u MX hotswap switch rotated with flipped stabs
 
 0
 2
