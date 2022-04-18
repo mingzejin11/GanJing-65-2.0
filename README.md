@@ -10,17 +10,10 @@ The GanJing 65 PCB is hotswappable, supports ISO layouts, stepped caps lock, spl
 ![GanJing-65-2.0](./Images/GanJing_65_rev_2.0_layout.png)
 ## Schematic
 
-### Solder
-![](./Images/Solder/GanJing_65_rev_2.0_solder_schematic.png)
 ### Hotswap
 ![](./Images/Hotswap/GanJing_65_rev_2.0_hotswap_schematic.png)
-
-## Solder PCB layout
-### Front
-![](./Images/Solder/GanJing_65_rev_2.0_solder_PCB_front.png)
-
-### Back
-![](./Images/Solder/GanJing_65_rev_2.0_solder_PCB_back.png)
+### Solder
+![](./Images/Solder/GanJing_65_rev_2.0_solder_schematic.png)
 
 ## Hotswap PCB layout
 ### Front
@@ -28,3 +21,10 @@ The GanJing 65 PCB is hotswappable, supports ISO layouts, stepped caps lock, spl
 
 ### Back
 ![](./Images/Hotswap/GanJing_65_rev_2.0_hotswap_PCB_back.png)
+
+## Solder PCB layout
+### Front
+![](./Images/Solder/GanJing_65_rev_2.0_solder_PCB_front.png)
+
+### Back
+![](./Images/Solder/GanJing_65_rev_2.0_solder_PCB_back.png)
