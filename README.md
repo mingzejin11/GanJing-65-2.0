@@ -16,6 +16,16 @@ The GanJing 65 PCB is hotswappable, supports ISO layouts, stepped caps lock, spl
 ### Back
 ![](./Images/Hotswap/GanJing_65_rev_2.0_hotswap_PCB_back.png)
 
+## Hotswap PCB layout with exposed traces
+### Front ANSI
+![](./Images/Hotswap exposed traces/GanJing_65_rev_2.0_hotswap_PCB_esposed_traces_front.png)
+
+### Front ISO and split spacebar
+![](./Images/Hotswap exposed traces/GanJing_65_rev_2.0_hotswap_PCB_esposed_traces_front_ISO.png)
+
+### Back
+![](./Images/Hotswap exposed traces/GanJing_65_rev_2.0_hotswap_PCB_esposed_traces_back.png)
+
 ## Solder PCB layout
 ### Front
 ![](./Images/Solder/GanJing_65_rev_2.0_solder_PCB_front.png)
