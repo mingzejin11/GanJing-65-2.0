@@ -2114,10 +2114,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7ca71fec-e7f1-454f-9196-b80d15925fff)
   )
-  (wire (pts (xy 259.08 46.99) (xy 260.35 46.99))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 7cbcc04f-d3b2-40ed-8100-370aada37fff)
-  )
   (wire (pts (xy 186.69 123.19) (xy 187.96 123.19))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7ef0c35c-e001-4051-83c6-be979ab01e85)
@@ -2876,13 +2872,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "S1" (shape input) (at 54.61 170.18 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 0fb27e11-fde6-4a25-adbb-e9684771b369)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at -44.45 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
   (global_label "row_5" (shape input) (at 76.2 55.88 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 17cf1c88-8d51-4538-aa76-e35ac22d0ed0)
@@ -3058,13 +3047,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "S1" (shape input) (at 260.35 46.99 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid a4f69329-0f05-4e94-b358-8ca236cb1af3)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 525.78 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
   (global_label "col_15" (shape input) (at 259.08 38.1 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid aa23bfe3-454b-4a2b-bfe1-101c747eb84e)
@@ -3083,6 +3065,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ad4d05f5-6957-42f8-b65c-c657b9a26485)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at -16.51 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "col_15" (shape input) (at 54.61 170.18 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b30b41e2-55d3-4427-8baa-83c7c22c0605)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 92.71 -96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3464,7 +3453,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 190.5 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619b341d)
-    (property "Reference" "MX23" (id 0) (at 191.77 63.5 0))
+    (property "Reference" "MX24" (id 0) (at 191.77 63.5 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 190.5 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3482,7 +3471,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 128.27 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619bb9d0)
-    (property "Reference" "MX16" (id 0) (at 129.54 63.5 0))
+    (property "Reference" "MX17" (id 0) (at 129.54 63.5 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 128.27 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3500,7 +3489,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 137.16 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619bb9d7)
-    (property "Reference" "MX17" (id 0) (at 138.43 63.5 0))
+    (property "Reference" "MX18" (id 0) (at 138.43 63.5 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 137.16 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3518,7 +3507,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 146.05 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619bb9de)
-    (property "Reference" "MX18" (id 0) (at 147.32 63.5 0))
+    (property "Reference" "MX19" (id 0) (at 147.32 63.5 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 146.05 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3536,7 +3525,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 154.94 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619bb9e5)
-    (property "Reference" "MX19" (id 0) (at 156.21 63.5 0))
+    (property "Reference" "MX20" (id 0) (at 156.21 63.5 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 154.94 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3554,7 +3543,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 163.83 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619bb9ec)
-    (property "Reference" "MX20" (id 0) (at 165.1 63.5 0))
+    (property "Reference" "MX21" (id 0) (at 165.1 63.5 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 163.83 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3572,7 +3561,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 172.72 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619bb9f3)
-    (property "Reference" "MX21" (id 0) (at 173.99 63.5 0))
+    (property "Reference" "MX22" (id 0) (at 173.99 63.5 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 172.72 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3590,7 +3579,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 181.61 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619bb9fa)
-    (property "Reference" "MX22" (id 0) (at 182.88 63.5 0))
+    (property "Reference" "MX23" (id 0) (at 182.88 63.5 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 181.61 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3855,7 +3844,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 226.06 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619f451f)
-    (property "Reference" "MX27" (id 0) (at 227.33 63.5 0))
+    (property "Reference" "MX28" (id 0) (at 227.33 63.5 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 226.06 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3873,7 +3862,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 199.39 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619f4526)
-    (property "Reference" "MX24" (id 0) (at 200.66 63.5 0))
+    (property "Reference" "MX25" (id 0) (at 200.66 63.5 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 199.39 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3891,7 +3880,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 208.28 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619f452d)
-    (property "Reference" "MX25" (id 0) (at 209.55 63.5 0))
+    (property "Reference" "MX26" (id 0) (at 209.55 63.5 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 208.28 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3909,7 +3898,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 217.17 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619f4534)
-    (property "Reference" "MX26" (id 0) (at 218.44 63.5 0))
+    (property "Reference" "MX27" (id 0) (at 218.44 63.5 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 217.17 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3927,7 +3916,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 190.5 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a09f5b)
-    (property "Reference" "MX38" (id 0) (at 191.77 82.55 0))
+    (property "Reference" "MX39" (id 0) (at 191.77 82.55 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 190.5 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3945,7 +3934,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 128.27 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a09f62)
-    (property "Reference" "MX31" (id 0) (at 129.54 82.55 0))
+    (property "Reference" "MX32" (id 0) (at 129.54 82.55 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 128.27 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3963,7 +3952,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 137.16 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a09f69)
-    (property "Reference" "MX32" (id 0) (at 138.43 82.55 0))
+    (property "Reference" "MX33" (id 0) (at 138.43 82.55 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 137.16 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3981,7 +3970,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 146.05 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a09f70)
-    (property "Reference" "MX33" (id 0) (at 147.32 82.55 0))
+    (property "Reference" "MX34" (id 0) (at 147.32 82.55 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 146.05 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3999,7 +3988,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 154.94 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a09f77)
-    (property "Reference" "MX34" (id 0) (at 156.21 82.55 0))
+    (property "Reference" "MX35" (id 0) (at 156.21 82.55 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 154.94 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4017,7 +4006,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 163.83 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a09f7e)
-    (property "Reference" "MX35" (id 0) (at 165.1 82.55 0))
+    (property "Reference" "MX36" (id 0) (at 165.1 82.55 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 163.83 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4035,7 +4024,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 172.72 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a09f85)
-    (property "Reference" "MX36" (id 0) (at 173.99 82.55 0))
+    (property "Reference" "MX37" (id 0) (at 173.99 82.55 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 172.72 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4053,7 +4042,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 181.61 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a09f8c)
-    (property "Reference" "MX37" (id 0) (at 182.88 82.55 0))
+    (property "Reference" "MX38" (id 0) (at 182.88 82.55 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 181.61 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4071,7 +4060,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 199.39 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a09f9a)
-    (property "Reference" "MX39" (id 0) (at 200.66 82.55 0))
+    (property "Reference" "MX40" (id 0) (at 200.66 82.55 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 199.39 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4089,7 +4078,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 208.28 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a09fa1)
-    (property "Reference" "MX40" (id 0) (at 209.55 82.55 0))
+    (property "Reference" "MX41" (id 0) (at 209.55 82.55 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 208.28 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4107,7 +4096,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 217.17 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a09fa8)
-    (property "Reference" "MX41" (id 0) (at 218.44 82.55 0))
+    (property "Reference" "MX42" (id 0) (at 218.44 82.55 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 217.17 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4125,7 +4114,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 128.27 74.93 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a10ed7)
-    (property "Reference" "D16" (id 0) (at 130.302 74.93 90)
+    (property "Reference" "D17" (id 0) (at 130.302 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 130.81 74.93 0)
@@ -4144,7 +4133,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 137.16 74.93 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a10edd)
-    (property "Reference" "D17" (id 0) (at 139.192 74.93 90)
+    (property "Reference" "D18" (id 0) (at 139.192 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 139.7 74.93 0)
@@ -4163,7 +4152,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 146.05 74.93 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a10ee3)
-    (property "Reference" "D18" (id 0) (at 148.082 74.93 90)
+    (property "Reference" "D19" (id 0) (at 148.082 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 148.59 74.93 0)
@@ -4182,7 +4171,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 154.94 74.93 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a10ee9)
-    (property "Reference" "D19" (id 0) (at 156.972 74.93 90)
+    (property "Reference" "D20" (id 0) (at 156.972 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 157.48 74.93 0)
@@ -4201,7 +4190,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 163.83 74.93 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a10eef)
-    (property "Reference" "D20" (id 0) (at 165.862 74.93 90)
+    (property "Reference" "D21" (id 0) (at 165.862 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 166.37 74.93 0)
@@ -4220,7 +4209,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 172.72 74.93 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a10ef5)
-    (property "Reference" "D21" (id 0) (at 174.752 74.93 90)
+    (property "Reference" "D22" (id 0) (at 174.752 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 175.26 74.93 0)
@@ -4239,7 +4228,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 181.61 74.93 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a10efb)
-    (property "Reference" "D22" (id 0) (at 183.642 74.93 90)
+    (property "Reference" "D23" (id 0) (at 183.642 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 184.15 74.93 0)
@@ -4258,7 +4247,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 190.5 74.93 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a10f01)
-    (property "Reference" "D23" (id 0) (at 192.532 74.93 90)
+    (property "Reference" "D24" (id 0) (at 192.532 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 193.04 74.93 0)
@@ -4277,7 +4266,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 199.39 74.93 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a10f07)
-    (property "Reference" "D24" (id 0) (at 201.422 74.93 90)
+    (property "Reference" "D25" (id 0) (at 201.422 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 201.93 74.93 0)
@@ -4296,7 +4285,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 208.28 74.93 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a10f0d)
-    (property "Reference" "D25" (id 0) (at 210.312 74.93 90)
+    (property "Reference" "D26" (id 0) (at 210.312 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 210.82 74.93 0)
@@ -4315,7 +4304,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 217.17 74.93 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a10f13)
-    (property "Reference" "D26" (id 0) (at 219.202 74.93 90)
+    (property "Reference" "D27" (id 0) (at 219.202 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 219.71 74.93 0)
@@ -4334,7 +4323,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 226.06 74.93 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a10f19)
-    (property "Reference" "D27" (id 0) (at 228.092 74.93 90)
+    (property "Reference" "D28" (id 0) (at 228.092 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 228.6 74.93 0)
@@ -4353,7 +4342,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 128.27 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a255a8)
-    (property "Reference" "D31" (id 0) (at 130.302 93.98 90)
+    (property "Reference" "D32" (id 0) (at 130.302 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 130.81 93.98 0)
@@ -4372,7 +4361,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 137.16 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a255ae)
-    (property "Reference" "D32" (id 0) (at 139.192 93.98 90)
+    (property "Reference" "D33" (id 0) (at 139.192 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 139.7 93.98 0)
@@ -4391,7 +4380,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 146.05 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a255b4)
-    (property "Reference" "D33" (id 0) (at 148.082 93.98 90)
+    (property "Reference" "D34" (id 0) (at 148.082 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 148.59 93.98 0)
@@ -4410,7 +4399,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 154.94 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a255ba)
-    (property "Reference" "D34" (id 0) (at 156.972 93.98 90)
+    (property "Reference" "D35" (id 0) (at 156.972 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 157.48 93.98 0)
@@ -4429,7 +4418,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 163.83 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a255c0)
-    (property "Reference" "D35" (id 0) (at 165.862 93.98 90)
+    (property "Reference" "D36" (id 0) (at 165.862 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 166.37 93.98 0)
@@ -4448,7 +4437,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 172.72 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a255c6)
-    (property "Reference" "D36" (id 0) (at 174.752 93.98 90)
+    (property "Reference" "D37" (id 0) (at 174.752 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 175.26 93.98 0)
@@ -4467,7 +4456,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 181.61 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a255cc)
-    (property "Reference" "D37" (id 0) (at 183.642 93.98 90)
+    (property "Reference" "D38" (id 0) (at 183.642 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 184.15 93.98 0)
@@ -4486,7 +4475,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 190.5 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a255d2)
-    (property "Reference" "D38" (id 0) (at 192.532 93.98 90)
+    (property "Reference" "D39" (id 0) (at 192.532 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 193.04 93.98 0)
@@ -4505,7 +4494,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 199.39 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a255d8)
-    (property "Reference" "D39" (id 0) (at 201.422 93.98 90)
+    (property "Reference" "D40" (id 0) (at 201.422 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 201.93 93.98 0)
@@ -4524,7 +4513,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 208.28 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a255de)
-    (property "Reference" "D40" (id 0) (at 210.312 93.98 90)
+    (property "Reference" "D41" (id 0) (at 210.312 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 210.82 93.98 0)
@@ -4543,7 +4532,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 217.17 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a255e4)
-    (property "Reference" "D41" (id 0) (at 219.202 93.98 90)
+    (property "Reference" "D42" (id 0) (at 219.202 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 219.71 93.98 0)
@@ -4562,7 +4551,7 @@
   (symbol (lib_id "GanJing_components:MX_1.5u_no_LED") (at 119.38 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a35a62)
-    (property "Reference" "MX15" (id 0) (at 120.65 63.5 0))
+    (property "Reference" "MX16" (id 0) (at 120.65 63.5 0))
     (property "Value" "MX_1.5u_no_LED" (id 1) (at 119.38 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4580,7 +4569,7 @@
   (symbol (lib_id "GanJing_components:MX_1.75u_no_LED") (at 119.38 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a374e6)
-    (property "Reference" "MX30" (id 0) (at 120.65 82.55 0))
+    (property "Reference" "MX31" (id 0) (at 120.65 82.55 0))
     (property "Value" "MX_1.75u_no_LED" (id 1) (at 119.38 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4598,7 +4587,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 119.38 74.93 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a3802f)
-    (property "Reference" "D15" (id 0) (at 121.412 74.93 90)
+    (property "Reference" "D16" (id 0) (at 121.412 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 121.92 74.93 0)
@@ -4617,7 +4606,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 119.38 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a3853c)
-    (property "Reference" "D30" (id 0) (at 121.412 93.98 90)
+    (property "Reference" "D31" (id 0) (at 121.412 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 121.92 93.98 0)
@@ -4636,7 +4625,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 190.5 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a688)
-    (property "Reference" "MX53" (id 0) (at 191.77 101.6 0))
+    (property "Reference" "MX54" (id 0) (at 191.77 101.6 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 190.5 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4654,7 +4643,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 137.16 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a696)
-    (property "Reference" "MX47" (id 0) (at 138.43 101.6 0))
+    (property "Reference" "MX48" (id 0) (at 138.43 101.6 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 137.16 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4672,7 +4661,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 146.05 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a69d)
-    (property "Reference" "MX48" (id 0) (at 147.32 101.6 0))
+    (property "Reference" "MX49" (id 0) (at 147.32 101.6 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 146.05 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4690,7 +4679,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 154.94 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a6a4)
-    (property "Reference" "MX49" (id 0) (at 156.21 101.6 0))
+    (property "Reference" "MX50" (id 0) (at 156.21 101.6 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 154.94 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4708,7 +4697,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 163.83 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a6ab)
-    (property "Reference" "MX50" (id 0) (at 165.1 101.6 0))
+    (property "Reference" "MX51" (id 0) (at 165.1 101.6 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 163.83 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4726,7 +4715,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 172.72 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a6b2)
-    (property "Reference" "MX51" (id 0) (at 173.99 101.6 0))
+    (property "Reference" "MX52" (id 0) (at 173.99 101.6 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 172.72 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4744,7 +4733,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 181.61 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a6b9)
-    (property "Reference" "MX52" (id 0) (at 182.88 101.6 0))
+    (property "Reference" "MX53" (id 0) (at 182.88 101.6 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 181.61 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4762,7 +4751,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 199.39 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a6c0)
-    (property "Reference" "MX54" (id 0) (at 200.66 101.6 0))
+    (property "Reference" "MX55" (id 0) (at 200.66 101.6 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 199.39 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4780,7 +4769,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 208.28 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a6c7)
-    (property "Reference" "MX55" (id 0) (at 209.55 101.6 0))
+    (property "Reference" "MX56" (id 0) (at 209.55 101.6 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 208.28 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4798,7 +4787,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 217.17 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a6ce)
-    (property "Reference" "MX56" (id 0) (at 218.44 101.6 0))
+    (property "Reference" "MX57" (id 0) (at 218.44 101.6 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 217.17 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4816,7 +4805,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 137.16 113.03 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a6da)
-    (property "Reference" "D47" (id 0) (at 139.192 113.03 90)
+    (property "Reference" "D48" (id 0) (at 139.192 113.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 139.7 113.03 0)
@@ -4835,7 +4824,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 146.05 113.03 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a6e0)
-    (property "Reference" "D48" (id 0) (at 148.082 113.03 90)
+    (property "Reference" "D49" (id 0) (at 148.082 113.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 148.59 113.03 0)
@@ -4854,7 +4843,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 154.94 113.03 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a6e6)
-    (property "Reference" "D49" (id 0) (at 156.972 113.03 90)
+    (property "Reference" "D50" (id 0) (at 156.972 113.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 157.48 113.03 0)
@@ -4873,7 +4862,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 163.83 113.03 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a6ec)
-    (property "Reference" "D50" (id 0) (at 165.862 113.03 90)
+    (property "Reference" "D51" (id 0) (at 165.862 113.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 166.37 113.03 0)
@@ -4892,7 +4881,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 172.72 113.03 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a6f2)
-    (property "Reference" "D51" (id 0) (at 174.752 113.03 90)
+    (property "Reference" "D52" (id 0) (at 174.752 113.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 175.26 113.03 0)
@@ -4911,7 +4900,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 181.61 113.03 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a6f8)
-    (property "Reference" "D52" (id 0) (at 183.642 113.03 90)
+    (property "Reference" "D53" (id 0) (at 183.642 113.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 184.15 113.03 0)
@@ -4930,7 +4919,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 190.5 113.03 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a6fe)
-    (property "Reference" "D53" (id 0) (at 192.532 113.03 90)
+    (property "Reference" "D54" (id 0) (at 192.532 113.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 193.04 113.03 0)
@@ -4949,7 +4938,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 199.39 113.03 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a704)
-    (property "Reference" "D54" (id 0) (at 201.422 113.03 90)
+    (property "Reference" "D55" (id 0) (at 201.422 113.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 201.93 113.03 0)
@@ -4968,7 +4957,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 208.28 113.03 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a70a)
-    (property "Reference" "D55" (id 0) (at 210.312 113.03 90)
+    (property "Reference" "D56" (id 0) (at 210.312 113.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 210.82 113.03 0)
@@ -4987,7 +4976,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 217.17 113.03 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4a710)
-    (property "Reference" "D56" (id 0) (at 219.202 113.03 90)
+    (property "Reference" "D57" (id 0) (at 219.202 113.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 219.71 113.03 0)
@@ -5006,7 +4995,7 @@
   (symbol (lib_id "GanJing_components:MX_2.25u_no_LED") (at 119.38 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a50ad5)
-    (property "Reference" "MX45" (id 0) (at 120.65 101.6 0))
+    (property "Reference" "MX46" (id 0) (at 120.65 101.6 0))
     (property "Value" "MX_2.25u_no_LED" (id 1) (at 119.38 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5024,7 +5013,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 119.38 113.03 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a5209c)
-    (property "Reference" "D45" (id 0) (at 121.412 113.03 90)
+    (property "Reference" "D46" (id 0) (at 121.412 113.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 121.92 113.03 0)
@@ -5043,7 +5032,7 @@
   (symbol (lib_id "GanJing_components:MX_1.25u_no_LED") (at 119.38 123.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a53fdb)
-    (property "Reference" "MX60" (id 0) (at 120.65 120.65 0))
+    (property "Reference" "MX61" (id 0) (at 120.65 120.65 0))
     (property "Value" "MX_1.25u_no_LED" (id 1) (at 119.38 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5061,7 +5050,7 @@
   (symbol (lib_id "GanJing_components:MX_1.25u_no_LED") (at 128.27 123.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a54800)
-    (property "Reference" "MX61" (id 0) (at 129.54 120.65 0))
+    (property "Reference" "MX62" (id 0) (at 129.54 120.65 0))
     (property "Value" "MX_1.25u_no_LED" (id 1) (at 128.27 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5079,7 +5068,7 @@
   (symbol (lib_id "GanJing_components:MX_1.25u_no_LED") (at 137.16 123.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a54f33)
-    (property "Reference" "MX62" (id 0) (at 138.43 120.65 0))
+    (property "Reference" "MX63" (id 0) (at 138.43 120.65 0))
     (property "Value" "MX_1.25u_no_LED" (id 1) (at 137.16 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5097,7 +5086,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 128.27 132.08 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a573d8)
-    (property "Reference" "D61" (id 0) (at 130.302 132.08 90)
+    (property "Reference" "D62" (id 0) (at 130.302 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 130.81 132.08 0)
@@ -5116,7 +5105,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 137.16 132.08 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a573de)
-    (property "Reference" "D62" (id 0) (at 139.192 132.08 90)
+    (property "Reference" "D63" (id 0) (at 139.192 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 139.7 132.08 0)
@@ -5135,7 +5124,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 119.38 132.08 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a573e4)
-    (property "Reference" "D60" (id 0) (at 121.412 132.08 90)
+    (property "Reference" "D61" (id 0) (at 121.412 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 121.92 132.08 0)
@@ -5154,7 +5143,7 @@
   (symbol (lib_id "GanJing_components:MX_6.25u_no_LED_flipped_stabs") (at 172.72 123.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a5d64c)
-    (property "Reference" "MX65" (id 0) (at 173.99 120.65 0))
+    (property "Reference" "MX66" (id 0) (at 173.99 120.65 0))
     (property "Value" "MX_6.25u_no_LED_flipped_stabs" (id 1) (at 172.72 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5172,7 +5161,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 172.72 132.08 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a60a62)
-    (property "Reference" "D65" (id 0) (at 174.752 132.08 90)
+    (property "Reference" "D66" (id 0) (at 174.752 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 175.26 132.08 0)
@@ -5191,7 +5180,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 190.5 123.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a7b327)
-    (property "Reference" "MX67" (id 0) (at 191.77 120.65 0))
+    (property "Reference" "MX68" (id 0) (at 191.77 120.65 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 190.5 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5209,7 +5198,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 199.39 123.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a7bce2)
-    (property "Reference" "MX68" (id 0) (at 200.66 120.65 0))
+    (property "Reference" "MX69" (id 0) (at 200.66 120.65 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 199.39 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5227,7 +5216,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 208.28 123.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a7c10b)
-    (property "Reference" "MX69" (id 0) (at 209.55 120.65 0))
+    (property "Reference" "MX70" (id 0) (at 209.55 120.65 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 208.28 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5245,7 +5234,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 217.17 123.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a7c5a2)
-    (property "Reference" "MX70" (id 0) (at 218.44 120.65 0))
+    (property "Reference" "MX71" (id 0) (at 218.44 120.65 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 217.17 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5263,7 +5252,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 226.06 123.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a7ca2f)
-    (property "Reference" "MX71" (id 0) (at 227.33 120.65 0))
+    (property "Reference" "MX72" (id 0) (at 227.33 120.65 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 226.06 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5281,7 +5270,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 243.84 123.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a7cf76)
-    (property "Reference" "MX72" (id 0) (at 245.11 120.65 0))
+    (property "Reference" "MX73" (id 0) (at 245.11 120.65 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 243.84 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5299,7 +5288,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 252.73 123.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a7d351)
-    (property "Reference" "MX73" (id 0) (at 254 120.65 0))
+    (property "Reference" "MX74" (id 0) (at 254 120.65 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 252.73 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5317,7 +5306,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 190.5 132.08 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a82839)
-    (property "Reference" "D67" (id 0) (at 192.532 132.08 90)
+    (property "Reference" "D68" (id 0) (at 192.532 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 193.04 132.08 0)
@@ -5336,7 +5325,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 199.39 132.08 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a8283f)
-    (property "Reference" "D68" (id 0) (at 201.422 132.08 90)
+    (property "Reference" "D69" (id 0) (at 201.422 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 201.93 132.08 0)
@@ -5355,7 +5344,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 208.28 132.08 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a82845)
-    (property "Reference" "D69" (id 0) (at 210.312 132.08 90)
+    (property "Reference" "D70" (id 0) (at 210.312 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 210.82 132.08 0)
@@ -5374,7 +5363,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 217.17 132.08 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a8284b)
-    (property "Reference" "D70" (id 0) (at 219.202 132.08 90)
+    (property "Reference" "D71" (id 0) (at 219.202 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 219.71 132.08 0)
@@ -5393,7 +5382,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 226.06 132.08 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a82851)
-    (property "Reference" "D71" (id 0) (at 228.092 132.08 90)
+    (property "Reference" "D72" (id 0) (at 228.092 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 228.6 132.08 0)
@@ -5412,7 +5401,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 243.84 132.08 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a82857)
-    (property "Reference" "D72" (id 0) (at 245.872 132.08 90)
+    (property "Reference" "D73" (id 0) (at 245.872 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 246.38 132.08 0)
@@ -5431,7 +5420,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 252.73 132.08 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a85465)
-    (property "Reference" "D73" (id 0) (at 254.762 132.08 90)
+    (property "Reference" "D74" (id 0) (at 254.762 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 255.27 132.08 0)
@@ -5468,7 +5457,7 @@
   (symbol (lib_id "GanJing_components:MX_1.5u_no_LED") (at 243.84 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061aa2070)
-    (property "Reference" "MX28" (id 0) (at 245.11 63.5 0))
+    (property "Reference" "MX29" (id 0) (at 245.11 63.5 0))
     (property "Value" "MX_1.5u_no_LED" (id 1) (at 243.84 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5486,7 +5475,7 @@
   (symbol (lib_id "GanJing_components:MX_2.25u_no_LED") (at 243.84 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061aa276d)
-    (property "Reference" "MX43" (id 0) (at 245.11 82.55 0))
+    (property "Reference" "MX44" (id 0) (at 245.11 82.55 0))
     (property "Value" "MX_2.25u_no_LED" (id 1) (at 243.84 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5504,7 +5493,7 @@
   (symbol (lib_id "GanJing_components:MX_2.75u_no_LED") (at 226.06 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061aa8b2a)
-    (property "Reference" "MX57" (id 0) (at 227.33 101.6 0))
+    (property "Reference" "MX58" (id 0) (at 227.33 101.6 0))
     (property "Value" "MX_2.75u_no_LED" (id 1) (at 226.06 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5522,7 +5511,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 252.73 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061aa9eda)
-    (property "Reference" "MX59" (id 0) (at 254 101.6 0))
+    (property "Reference" "MX60" (id 0) (at 254 101.6 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 252.73 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5540,7 +5529,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 252.73 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061aaa601)
-    (property "Reference" "MX44" (id 0) (at 254 82.55 0))
+    (property "Reference" "MX45" (id 0) (at 254 82.55 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 252.73 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5558,7 +5547,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 252.73 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061aaab34)
-    (property "Reference" "MX29" (id 0) (at 254 63.5 0))
+    (property "Reference" "MX30" (id 0) (at 254 63.5 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 252.73 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5576,7 +5565,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 243.84 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061aac67d)
-    (property "Reference" "D43" (id 0) (at 245.872 93.98 90)
+    (property "Reference" "D44" (id 0) (at 245.872 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 246.38 93.98 0)
@@ -5595,7 +5584,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 252.73 74.93 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061aac683)
-    (property "Reference" "D29" (id 0) (at 254.762 74.93 90)
+    (property "Reference" "D30" (id 0) (at 254.762 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 255.27 74.93 0)
@@ -5614,7 +5603,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 226.06 113.03 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ab0810)
-    (property "Reference" "D57" (id 0) (at 228.092 113.03 90)
+    (property "Reference" "D58" (id 0) (at 228.092 113.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 228.6 113.03 0)
@@ -5633,7 +5622,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 252.73 113.03 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ab081c)
-    (property "Reference" "D59" (id 0) (at 254.762 113.03 90)
+    (property "Reference" "D60" (id 0) (at 254.762 113.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 255.27 113.03 0)
@@ -5652,7 +5641,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 252.73 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ab3d23)
-    (property "Reference" "D44" (id 0) (at 254.762 93.98 90)
+    (property "Reference" "D45" (id 0) (at 254.762 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 255.27 93.98 0)
@@ -5671,7 +5660,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 243.84 74.93 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ab41d6)
-    (property "Reference" "D28" (id 0) (at 245.872 74.93 90)
+    (property "Reference" "D29" (id 0) (at 245.872 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 246.38 74.93 0)
@@ -5709,7 +5698,7 @@
   (symbol (lib_id "GanJing_components:MX_1.25u_no_LED") (at 163.83 123.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061baf1b1)
-    (property "Reference" "MX64" (id 0) (at 165.1 120.65 0))
+    (property "Reference" "MX65" (id 0) (at 165.1 120.65 0))
     (property "Value" "MX_1.25u_no_LED" (id 1) (at 163.83 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5727,7 +5716,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 252.73 55.88 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062168b1d)
-    (property "Reference" "D74" (id 0) (at 254.762 55.88 90)
+    (property "Reference" "D15" (id 0) (at 254.762 55.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 255.27 55.88 0)
@@ -5891,7 +5880,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 128.27 113.03 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 03014b7d-b803-4d87-b9da-8783f9de2ec8)
-    (property "Reference" "D46" (id 0) (at 130.302 113.03 90)
+    (property "Reference" "D47" (id 0) (at 130.302 113.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 130.81 113.03 0)
@@ -5910,7 +5899,7 @@
   (symbol (lib_id "GanJing_components:MX_2.25u_no_LED_flipped_stabs") (at 154.94 123.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1c7b2c35-ac47-461b-8325-dc09f0e080e3)
-    (property "Reference" "MX63" (id 0) (at 156.21 120.65 0))
+    (property "Reference" "MX64" (id 0) (at 156.21 120.65 0))
     (property "Value" "MX_2.25u_no_LED_flipped_stabs" (id 1) (at 154.94 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5928,7 +5917,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 243.84 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 20a0b261-435b-4983-bbbe-7062313791a7)
-    (property "Reference" "MX58" (id 0) (at 245.11 101.6 0))
+    (property "Reference" "MX59" (id 0) (at 245.11 101.6 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 243.84 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5946,7 +5935,7 @@
   (symbol (lib_id "GanJing_components:MX_2.75u_no_LED_flipped_stabs") (at 181.61 123.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2e869f35-228b-4727-8ffd-dc822fc2c72d)
-    (property "Reference" "MX66" (id 0) (at 182.88 120.65 0))
+    (property "Reference" "MX67" (id 0) (at 182.88 120.65 0))
     (property "Value" "MX_2.75u_no_LED_flipped_stabs" (id 1) (at 181.61 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5964,7 +5953,7 @@
   (symbol (lib_id "GanJing_components:MX_1.75u_no_LED") (at 234.95 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 35289c41-7dfd-4aa8-944f-cb0712e8cd5a)
-    (property "Reference" "MX77" (id 0) (at 236.22 101.6 0))
+    (property "Reference" "MX78" (id 0) (at 236.22 101.6 0))
     (property "Value" "MX_1.75u_no_LED" (id 1) (at 234.95 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5982,7 +5971,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 163.83 132.08 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5430ec91-0208-4fa2-b115-1f2cba55d7d6)
-    (property "Reference" "D64" (id 0) (at 165.862 132.08 90)
+    (property "Reference" "D65" (id 0) (at 165.862 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 166.37 132.08 0)
@@ -6001,7 +5990,7 @@
   (symbol (lib_id "GanJing_components:MX_1.75u_no_LED") (at 110.49 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5cb680a9-21cd-4af4-99c0-62f322dcedab)
-    (property "Reference" "MX74" (id 0) (at 111.76 82.55 0))
+    (property "Reference" "MX75" (id 0) (at 111.76 82.55 0))
     (property "Value" "MX_1.75u_no_LED" (id 1) (at 110.49 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6019,7 +6008,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 181.61 132.08 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 63f78723-5413-4d91-ab5b-520d4117f8ac)
-    (property "Reference" "D66" (id 0) (at 183.642 132.08 90)
+    (property "Reference" "D67" (id 0) (at 183.642 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 184.15 132.08 0)
@@ -6038,7 +6027,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 226.06 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6a247aef-5bc4-49f2-acc2-99a167d67640)
-    (property "Reference" "D42" (id 0) (at 228.092 93.98 90)
+    (property "Reference" "D43" (id 0) (at 228.092 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 228.6 93.98 0)
@@ -6057,7 +6046,7 @@
   (symbol (lib_id "GanJing_components:MX_1.25u_no_LED") (at 110.49 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 701555de-da77-424f-ac95-c40337f4843d)
-    (property "Reference" "MX76" (id 0) (at 111.76 101.6 0))
+    (property "Reference" "MX77" (id 0) (at 111.76 101.6 0))
     (property "Value" "MX_1.25u_no_LED" (id 1) (at 110.49 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6075,7 +6064,7 @@
   (symbol (lib_id "GanJing_components:MX_ISO_no_LED_flipped_stabs") (at 234.95 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 704ca609-387c-4eea-aab4-5682686b707b)
-    (property "Reference" "MX75" (id 0) (at 236.22 82.55 0))
+    (property "Reference" "MX76" (id 0) (at 236.22 82.55 0))
     (property "Value" "MX_ISO_no_LED_flipped_stabs" (id 1) (at 234.95 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6093,7 +6082,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 154.94 132.08 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8acad46d-a329-456f-9280-20b442139871)
-    (property "Reference" "D63" (id 0) (at 156.972 132.08 90)
+    (property "Reference" "D64" (id 0) (at 156.972 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 157.48 132.08 0)
@@ -6112,7 +6101,7 @@
   (symbol (lib_id "GanJing_components:1N4148TR_diode") (at 243.84 113.03 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 93349ed9-49cb-4a96-a602-548fa0cbb988)
-    (property "Reference" "D58" (id 0) (at 245.872 113.03 90)
+    (property "Reference" "D59" (id 0) (at 245.872 113.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148TR_diode" (id 1) (at 246.38 113.03 0)
@@ -6131,7 +6120,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 252.73 46.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b09903a5-693f-4dec-87b4-b28ce4c6d7db)
-    (property "Reference" "MX78" (id 0) (at 254 44.45 0))
+    (property "Reference" "MX15" (id 0) (at 254 44.45 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 252.73 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6149,7 +6138,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 226.06 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid befa30e2-62a3-45c0-8f6b-b79eac276875)
-    (property "Reference" "MX42" (id 0) (at 227.33 82.55 0))
+    (property "Reference" "MX43" (id 0) (at 227.33 82.55 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 226.06 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6167,7 +6156,7 @@
   (symbol (lib_id "GanJing_components:MX_1u_no_LED") (at 128.27 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid eb6ea843-5427-480a-9184-85a7c1c4fcb6)
-    (property "Reference" "MX46" (id 0) (at 129.54 101.6 0))
+    (property "Reference" "MX47" (id 0) (at 129.54 101.6 0))
     (property "Value" "MX_1u_no_LED" (id 1) (at 128.27 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6241,184 +6230,184 @@
     (path "/00000000-0000-0000-0000-000061ab529e"
       (reference "D14") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a3802f"
+    (path "/00000000-0000-0000-0000-000062168b1d"
       (reference "D15") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a10ed7"
+    (path "/00000000-0000-0000-0000-000061a3802f"
       (reference "D16") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a10edd"
+    (path "/00000000-0000-0000-0000-000061a10ed7"
       (reference "D17") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a10ee3"
+    (path "/00000000-0000-0000-0000-000061a10edd"
       (reference "D18") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a10ee9"
+    (path "/00000000-0000-0000-0000-000061a10ee3"
       (reference "D19") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a10eef"
+    (path "/00000000-0000-0000-0000-000061a10ee9"
       (reference "D20") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a10ef5"
+    (path "/00000000-0000-0000-0000-000061a10eef"
       (reference "D21") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a10efb"
+    (path "/00000000-0000-0000-0000-000061a10ef5"
       (reference "D22") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a10f01"
+    (path "/00000000-0000-0000-0000-000061a10efb"
       (reference "D23") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a10f07"
+    (path "/00000000-0000-0000-0000-000061a10f01"
       (reference "D24") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a10f0d"
+    (path "/00000000-0000-0000-0000-000061a10f07"
       (reference "D25") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a10f13"
+    (path "/00000000-0000-0000-0000-000061a10f0d"
       (reference "D26") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a10f19"
+    (path "/00000000-0000-0000-0000-000061a10f13"
       (reference "D27") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061ab41d6"
+    (path "/00000000-0000-0000-0000-000061a10f19"
       (reference "D28") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061aac683"
+    (path "/00000000-0000-0000-0000-000061ab41d6"
       (reference "D29") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a3853c"
+    (path "/00000000-0000-0000-0000-000061aac683"
       (reference "D30") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a255a8"
+    (path "/00000000-0000-0000-0000-000061a3853c"
       (reference "D31") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a255ae"
+    (path "/00000000-0000-0000-0000-000061a255a8"
       (reference "D32") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a255b4"
+    (path "/00000000-0000-0000-0000-000061a255ae"
       (reference "D33") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a255ba"
+    (path "/00000000-0000-0000-0000-000061a255b4"
       (reference "D34") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a255c0"
+    (path "/00000000-0000-0000-0000-000061a255ba"
       (reference "D35") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a255c6"
+    (path "/00000000-0000-0000-0000-000061a255c0"
       (reference "D36") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a255cc"
+    (path "/00000000-0000-0000-0000-000061a255c6"
       (reference "D37") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a255d2"
+    (path "/00000000-0000-0000-0000-000061a255cc"
       (reference "D38") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a255d8"
+    (path "/00000000-0000-0000-0000-000061a255d2"
       (reference "D39") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a255de"
+    (path "/00000000-0000-0000-0000-000061a255d8"
       (reference "D40") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a255e4"
+    (path "/00000000-0000-0000-0000-000061a255de"
       (reference "D41") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/6a247aef-5bc4-49f2-acc2-99a167d67640"
+    (path "/00000000-0000-0000-0000-000061a255e4"
       (reference "D42") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061aac67d"
+    (path "/6a247aef-5bc4-49f2-acc2-99a167d67640"
       (reference "D43") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061ab3d23"
+    (path "/00000000-0000-0000-0000-000061aac67d"
       (reference "D44") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a5209c"
+    (path "/00000000-0000-0000-0000-000061ab3d23"
       (reference "D45") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/03014b7d-b803-4d87-b9da-8783f9de2ec8"
+    (path "/00000000-0000-0000-0000-000061a5209c"
       (reference "D46") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a4a6da"
+    (path "/03014b7d-b803-4d87-b9da-8783f9de2ec8"
       (reference "D47") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a4a6e0"
+    (path "/00000000-0000-0000-0000-000061a4a6da"
       (reference "D48") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a4a6e6"
+    (path "/00000000-0000-0000-0000-000061a4a6e0"
       (reference "D49") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a4a6ec"
+    (path "/00000000-0000-0000-0000-000061a4a6e6"
       (reference "D50") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a4a6f2"
+    (path "/00000000-0000-0000-0000-000061a4a6ec"
       (reference "D51") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a4a6f8"
+    (path "/00000000-0000-0000-0000-000061a4a6f2"
       (reference "D52") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a4a6fe"
+    (path "/00000000-0000-0000-0000-000061a4a6f8"
       (reference "D53") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a4a704"
+    (path "/00000000-0000-0000-0000-000061a4a6fe"
       (reference "D54") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a4a70a"
+    (path "/00000000-0000-0000-0000-000061a4a704"
       (reference "D55") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a4a710"
+    (path "/00000000-0000-0000-0000-000061a4a70a"
       (reference "D56") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061ab0810"
+    (path "/00000000-0000-0000-0000-000061a4a710"
       (reference "D57") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/93349ed9-49cb-4a96-a602-548fa0cbb988"
+    (path "/00000000-0000-0000-0000-000061ab0810"
       (reference "D58") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061ab081c"
+    (path "/93349ed9-49cb-4a96-a602-548fa0cbb988"
       (reference "D59") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a573e4"
+    (path "/00000000-0000-0000-0000-000061ab081c"
       (reference "D60") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a573d8"
+    (path "/00000000-0000-0000-0000-000061a573e4"
       (reference "D61") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a573de"
+    (path "/00000000-0000-0000-0000-000061a573d8"
       (reference "D62") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/8acad46d-a329-456f-9280-20b442139871"
+    (path "/00000000-0000-0000-0000-000061a573de"
       (reference "D63") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/5430ec91-0208-4fa2-b115-1f2cba55d7d6"
+    (path "/8acad46d-a329-456f-9280-20b442139871"
       (reference "D64") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a60a62"
+    (path "/5430ec91-0208-4fa2-b115-1f2cba55d7d6"
       (reference "D65") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/63f78723-5413-4d91-ab5b-520d4117f8ac"
+    (path "/00000000-0000-0000-0000-000061a60a62"
       (reference "D66") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a82839"
+    (path "/63f78723-5413-4d91-ab5b-520d4117f8ac"
       (reference "D67") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a8283f"
+    (path "/00000000-0000-0000-0000-000061a82839"
       (reference "D68") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a82845"
+    (path "/00000000-0000-0000-0000-000061a8283f"
       (reference "D69") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a8284b"
+    (path "/00000000-0000-0000-0000-000061a82845"
       (reference "D70") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a82851"
+    (path "/00000000-0000-0000-0000-000061a8284b"
       (reference "D71") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a82857"
+    (path "/00000000-0000-0000-0000-000061a82851"
       (reference "D72") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000061a85465"
+    (path "/00000000-0000-0000-0000-000061a82857"
       (reference "D73") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
-    (path "/00000000-0000-0000-0000-000062168b1d"
+    (path "/00000000-0000-0000-0000-000061a85465"
       (reference "D74") (unit 1) (value "1N4148TR_diode") (footprint "GanJing_components:1N4148TR_diode")
     )
     (path "/00000000-0000-0000-0000-0000621832c4"
@@ -6466,197 +6455,197 @@
     (path "/00000000-0000-0000-0000-000061aa0063"
       (reference "MX14") (unit 1) (value "MX_2u_no_LED") (footprint "GanJing_components:MX_2u_no_LED_hotswap")
     )
+    (path "/b09903a5-693f-4dec-87b4-b28ce4c6d7db"
+      (reference "MX15") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
+    )
     (path "/00000000-0000-0000-0000-000061a35a62"
-      (reference "MX15") (unit 1) (value "MX_1.5u_no_LED") (footprint "GanJing_components:MX_1.5u_no_LED_hotswap")
+      (reference "MX16") (unit 1) (value "MX_1.5u_no_LED") (footprint "GanJing_components:MX_1.5u_no_LED_hotswap")
     )
     (path "/00000000-0000-0000-0000-0000619bb9d0"
-      (reference "MX16") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
-    )
-    (path "/00000000-0000-0000-0000-0000619bb9d7"
       (reference "MX17") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-0000619bb9de"
+    (path "/00000000-0000-0000-0000-0000619bb9d7"
       (reference "MX18") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-0000619bb9e5"
+    (path "/00000000-0000-0000-0000-0000619bb9de"
       (reference "MX19") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-0000619bb9ec"
+    (path "/00000000-0000-0000-0000-0000619bb9e5"
       (reference "MX20") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-0000619bb9f3"
+    (path "/00000000-0000-0000-0000-0000619bb9ec"
       (reference "MX21") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-0000619bb9fa"
+    (path "/00000000-0000-0000-0000-0000619bb9f3"
       (reference "MX22") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-0000619b341d"
+    (path "/00000000-0000-0000-0000-0000619bb9fa"
       (reference "MX23") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-0000619f4526"
+    (path "/00000000-0000-0000-0000-0000619b341d"
       (reference "MX24") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-0000619f452d"
+    (path "/00000000-0000-0000-0000-0000619f4526"
       (reference "MX25") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-0000619f4534"
+    (path "/00000000-0000-0000-0000-0000619f452d"
       (reference "MX26") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-0000619f451f"
+    (path "/00000000-0000-0000-0000-0000619f4534"
       (reference "MX27") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
+    (path "/00000000-0000-0000-0000-0000619f451f"
+      (reference "MX28") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
+    )
     (path "/00000000-0000-0000-0000-000061aa2070"
-      (reference "MX28") (unit 1) (value "MX_1.5u_no_LED") (footprint "GanJing_components:MX_1.5u_no_LED_hotswap_rotated")
+      (reference "MX29") (unit 1) (value "MX_1.5u_no_LED") (footprint "GanJing_components:MX_1.5u_no_LED_hotswap_rotated")
     )
     (path "/00000000-0000-0000-0000-000061aaab34"
-      (reference "MX29") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
+      (reference "MX30") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
     (path "/00000000-0000-0000-0000-000061a374e6"
-      (reference "MX30") (unit 1) (value "MX_1.75u_no_LED") (footprint "GanJing_components:MX_1.75u_no_LED_hotswap")
+      (reference "MX31") (unit 1) (value "MX_1.75u_no_LED") (footprint "GanJing_components:MX_1.75u_no_LED_hotswap")
     )
     (path "/00000000-0000-0000-0000-000061a09f62"
-      (reference "MX31") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
-    )
-    (path "/00000000-0000-0000-0000-000061a09f69"
       (reference "MX32") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a09f70"
+    (path "/00000000-0000-0000-0000-000061a09f69"
       (reference "MX33") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a09f77"
+    (path "/00000000-0000-0000-0000-000061a09f70"
       (reference "MX34") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a09f7e"
+    (path "/00000000-0000-0000-0000-000061a09f77"
       (reference "MX35") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a09f85"
+    (path "/00000000-0000-0000-0000-000061a09f7e"
       (reference "MX36") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a09f8c"
+    (path "/00000000-0000-0000-0000-000061a09f85"
       (reference "MX37") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a09f5b"
+    (path "/00000000-0000-0000-0000-000061a09f8c"
       (reference "MX38") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a09f9a"
+    (path "/00000000-0000-0000-0000-000061a09f5b"
       (reference "MX39") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a09fa1"
+    (path "/00000000-0000-0000-0000-000061a09f9a"
       (reference "MX40") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a09fa8"
+    (path "/00000000-0000-0000-0000-000061a09fa1"
       (reference "MX41") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/befa30e2-62a3-45c0-8f6b-b79eac276875"
+    (path "/00000000-0000-0000-0000-000061a09fa8"
       (reference "MX42") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
+    (path "/befa30e2-62a3-45c0-8f6b-b79eac276875"
+      (reference "MX43") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
+    )
     (path "/00000000-0000-0000-0000-000061aa276d"
-      (reference "MX43") (unit 1) (value "MX_2.25u_no_LED") (footprint "GanJing_components:MX_2.25u_no_LED_hotswap_rotated_flipped_stabs")
+      (reference "MX44") (unit 1) (value "MX_2.25u_no_LED") (footprint "GanJing_components:MX_2.25u_no_LED_hotswap_rotated_flipped_stabs")
     )
     (path "/00000000-0000-0000-0000-000061aaa601"
-      (reference "MX44") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
+      (reference "MX45") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
     (path "/00000000-0000-0000-0000-000061a50ad5"
-      (reference "MX45") (unit 1) (value "MX_2.25u_no_LED") (footprint "GanJing_components:MX_2.25u_no_LED_hotswap")
+      (reference "MX46") (unit 1) (value "MX_2.25u_no_LED") (footprint "GanJing_components:MX_2.25u_no_LED_hotswap")
     )
     (path "/eb6ea843-5427-480a-9184-85a7c1c4fcb6"
-      (reference "MX46") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap_flipped_pins")
+      (reference "MX47") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap_flipped_pins")
     )
     (path "/00000000-0000-0000-0000-000061a4a696"
-      (reference "MX47") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
-    )
-    (path "/00000000-0000-0000-0000-000061a4a69d"
       (reference "MX48") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a4a6a4"
+    (path "/00000000-0000-0000-0000-000061a4a69d"
       (reference "MX49") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a4a6ab"
+    (path "/00000000-0000-0000-0000-000061a4a6a4"
       (reference "MX50") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a4a6b2"
+    (path "/00000000-0000-0000-0000-000061a4a6ab"
       (reference "MX51") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a4a6b9"
+    (path "/00000000-0000-0000-0000-000061a4a6b2"
       (reference "MX52") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a4a688"
+    (path "/00000000-0000-0000-0000-000061a4a6b9"
       (reference "MX53") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a4a6c0"
+    (path "/00000000-0000-0000-0000-000061a4a688"
       (reference "MX54") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a4a6c7"
+    (path "/00000000-0000-0000-0000-000061a4a6c0"
       (reference "MX55") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a4a6ce"
+    (path "/00000000-0000-0000-0000-000061a4a6c7"
       (reference "MX56") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
+    (path "/00000000-0000-0000-0000-000061a4a6ce"
+      (reference "MX57") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
+    )
     (path "/00000000-0000-0000-0000-000061aa8b2a"
-      (reference "MX57") (unit 1) (value "MX_2.75u_no_LED") (footprint "GanJing_components:MX_2.75u_no_LED_hotswap")
+      (reference "MX58") (unit 1) (value "MX_2.75u_no_LED") (footprint "GanJing_components:MX_2.75u_no_LED_hotswap")
     )
     (path "/20a0b261-435b-4983-bbbe-7062313791a7"
-      (reference "MX58") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
-    )
-    (path "/00000000-0000-0000-0000-000061aa9eda"
       (reference "MX59") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a53fdb"
-      (reference "MX60") (unit 1) (value "MX_1.25u_no_LED") (footprint "GanJing_components:MX_1.25u_no_LED_hotswap")
+    (path "/00000000-0000-0000-0000-000061aa9eda"
+      (reference "MX60") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a54800"
+    (path "/00000000-0000-0000-0000-000061a53fdb"
       (reference "MX61") (unit 1) (value "MX_1.25u_no_LED") (footprint "GanJing_components:MX_1.25u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a54f33"
+    (path "/00000000-0000-0000-0000-000061a54800"
       (reference "MX62") (unit 1) (value "MX_1.25u_no_LED") (footprint "GanJing_components:MX_1.25u_no_LED_hotswap")
     )
+    (path "/00000000-0000-0000-0000-000061a54f33"
+      (reference "MX63") (unit 1) (value "MX_1.25u_no_LED") (footprint "GanJing_components:MX_1.25u_no_LED_hotswap")
+    )
     (path "/1c7b2c35-ac47-461b-8325-dc09f0e080e3"
-      (reference "MX63") (unit 1) (value "MX_2.25u_no_LED_flipped_stabs") (footprint "GanJing_components:MX_2.25u_no_LED_hotswap_flipped_stabs")
+      (reference "MX64") (unit 1) (value "MX_2.25u_no_LED_flipped_stabs") (footprint "GanJing_components:MX_2.25u_no_LED_hotswap_flipped_stabs")
     )
     (path "/00000000-0000-0000-0000-000061baf1b1"
-      (reference "MX64") (unit 1) (value "MX_1.25u_no_LED") (footprint "GanJing_components:MX_1.25u_no_LED_hotswap")
+      (reference "MX65") (unit 1) (value "MX_1.25u_no_LED") (footprint "GanJing_components:MX_1.25u_no_LED_hotswap")
     )
     (path "/00000000-0000-0000-0000-000061a5d64c"
-      (reference "MX65") (unit 1) (value "MX_6.25u_no_LED_flipped_stabs") (footprint "GanJing_components:MX_6.25u_no_LED_hotswap_flipped_stabs")
+      (reference "MX66") (unit 1) (value "MX_6.25u_no_LED_flipped_stabs") (footprint "GanJing_components:MX_6.25u_no_LED_hotswap_flipped_stabs")
     )
     (path "/2e869f35-228b-4727-8ffd-dc822fc2c72d"
-      (reference "MX66") (unit 1) (value "MX_2.75u_no_LED_flipped_stabs") (footprint "GanJing_components:MX_2.75u_no_LED_hotswap_flipped_stabs")
+      (reference "MX67") (unit 1) (value "MX_2.75u_no_LED_flipped_stabs") (footprint "GanJing_components:MX_2.75u_no_LED_hotswap_flipped_stabs")
     )
     (path "/00000000-0000-0000-0000-000061a7b327"
-      (reference "MX67") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
-    )
-    (path "/00000000-0000-0000-0000-000061a7bce2"
       (reference "MX68") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a7c10b"
+    (path "/00000000-0000-0000-0000-000061a7bce2"
       (reference "MX69") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a7c5a2"
+    (path "/00000000-0000-0000-0000-000061a7c10b"
       (reference "MX70") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a7ca2f"
+    (path "/00000000-0000-0000-0000-000061a7c5a2"
       (reference "MX71") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a7cf76"
+    (path "/00000000-0000-0000-0000-000061a7ca2f"
       (reference "MX72") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
-    (path "/00000000-0000-0000-0000-000061a7d351"
+    (path "/00000000-0000-0000-0000-000061a7cf76"
       (reference "MX73") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
     )
+    (path "/00000000-0000-0000-0000-000061a7d351"
+      (reference "MX74") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
+    )
     (path "/5cb680a9-21cd-4af4-99c0-62f322dcedab"
-      (reference "MX74") (unit 1) (value "MX_1.75u_no_LED") (footprint "GanJing_components:MX_1.75u_stepped_no_LED_hotswap")
+      (reference "MX75") (unit 1) (value "MX_1.75u_no_LED") (footprint "GanJing_components:MX_1.75u_stepped_no_LED_hotswap")
     )
     (path "/704ca609-387c-4eea-aab4-5682686b707b"
-      (reference "MX75") (unit 1) (value "MX_ISO_no_LED_flipped_stabs") (footprint "GanJing_components:MX_ISO_no_LED_hotswap_flipped_stabs")
+      (reference "MX76") (unit 1) (value "MX_ISO_no_LED_flipped_stabs") (footprint "GanJing_components:MX_ISO_no_LED_hotswap_flipped_stabs")
     )
     (path "/701555de-da77-424f-ac95-c40337f4843d"
-      (reference "MX76") (unit 1) (value "MX_1.25u_no_LED") (footprint "GanJing_components:MX_1.25u_no_LED_hotswap")
+      (reference "MX77") (unit 1) (value "MX_1.25u_no_LED") (footprint "GanJing_components:MX_1.25u_no_LED_hotswap")
     )
     (path "/35289c41-7dfd-4aa8-944f-cb0712e8cd5a"
-      (reference "MX77") (unit 1) (value "MX_1.75u_no_LED") (footprint "GanJing_components:MX_1.75u_no_LED_hotswap")
-    )
-    (path "/b09903a5-693f-4dec-87b4-b28ce4c6d7db"
-      (reference "MX78") (unit 1) (value "MX_1u_no_LED") (footprint "GanJing_components:MX_1u_no_LED_hotswap")
+      (reference "MX78") (unit 1) (value "MX_1.75u_no_LED") (footprint "GanJing_components:MX_1.75u_no_LED_hotswap")
     )
     (path "/00000000-0000-0000-0000-000062183c25"
       (reference "SW1") (unit 1) (value "EC11_rotary_encoder") (footprint "GanJing_components:EC11_rotary_encoder")
