@@ -1,6 +1,6 @@
 (footprint "MX_1u_no_LED_hotswap_flipped_pins" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 625DD109)
+  (tedit 628149A0)
   (descr "1u MX hotswap switcwith flipped pins")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -8) (layer "F.Fab")
@@ -45,8 +45,8 @@
   (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask) (tstamp c974b321-5c82-4530-ac33-56d04589f4ea))
   (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask) (tstamp dbf44227-af21-41bd-bc2d-28a959c548fb))
   (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask) (tstamp fa29d936-9fc8-4db7-86f3-d9ae67708e2d))
-  (pad "1" smd rect (at -7.085 -2.54) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 09cabdf7-e482-45d5-8508-f0848474bb1f))
-  (pad "2" smd rect (at 5.842 -5.08) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 70695e4b-e845-4e99-a841-5cc37a0df072))
+  (pad "1" smd rect (at -7.085 -2.54) (size 2.55 2.5) (layers "B.Cu" "B.Mask") (tstamp 09cabdf7-e482-45d5-8508-f0848474bb1f))
+  (pad "2" smd rect (at 5.842 -5.08) (size 2.55 2.5) (layers "B.Cu" "B.Mask") (tstamp 70695e4b-e845-4e99-a841-5cc37a0df072))
   (model "C:/Users/Salmata Barrie/Documents/GanJing-65-2.0/PCB/Components/GanJing_components.3dshapes/SW_Hotswap_Kailh_MX.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
