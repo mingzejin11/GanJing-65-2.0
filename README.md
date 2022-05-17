@@ -6,7 +6,7 @@
 ## Layout options
 The GanJing 65 PCB is hotswappable, supports ISO layouts, stepped caps lock, split right shift, and split spacebar options. There is also a soldered PCB available.
 
-### Supported layouts
+### Supported hotswap layouts
 ![GanJing-65-2.0](./Images/GanJing_65_rev_2.0_layout_hotswap.png)
 
 ## Hotswap PCB layout
@@ -26,9 +26,15 @@ The GanJing 65 PCB is hotswappable, supports ISO layouts, stepped caps lock, spl
 ### Back
 ![](./Images/Hotswap_exposed_traces/GanJing_65_rev_2.0_hotswap_PCB_exposed_traces_back.png)
 
+### Supported solder layouts
+![GanJing-65-2.0](./Images/GanJing_65_rev_2.0_layout_solder.png)
+
 ## Solder PCB layout
 ### Front
 ![](./Images/Solder/GanJing_65_rev_2.0_solder_PCB_front.png)
+
+### Front ISO and 7u spacebar
+![](./Images/Solder/GanJing_65_rev_2.0_solder_PCB_front_alt.png)
 
 ### Back
 ![](./Images/Solder/GanJing_65_rev_2.0_solder_PCB_back.png)
