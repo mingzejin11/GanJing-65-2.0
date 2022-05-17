@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(6.0.1)*%
-%TF.CreationDate,2022-05-15T16:15:33-04:00*%
+%TF.CreationDate,2022-05-17T01:39:30-04:00*%
 %TF.ProjectId,GanJing 65 rev 2 solder,47616e4a-696e-4672-9036-352072657620,2*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,NonPlated,1,2,NPTH,Mixed*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.1)) date 2022-05-15 16:15:33*
+G04 Created by KiCad (PCBNEW (6.0.1)) date 2022-05-17 01:39:30*
 %MOMM*%
 %LPD*%
 G01*
@@ -33,8 +33,8 @@ G04 aperture for slot hole*
 G04 APERTURE END LIST*
 D10*
 %TO.C,SW1*%
-X358731250Y-143875000D03*
-X369931250Y-143875000D03*
+X358731250Y-143475000D03*
+X369931250Y-143475000D03*
 D11*
 %TO.C,MX1*%
 X54451250Y-104775000D03*
