@@ -1,4 +1,4 @@
-19879354903306219
+19906079600942440
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52115,6 +52115,34 @@ GanJing_components
 2
 2
 GanJing_components
+1N4148WS
+
+
+0
+2
+2
+GanJing_components
+105450-0101
+Molex USB-c 3.0 connector female
+
+0
+28
+28
+GanJing_components
+Capacitor 0402
+
+
+0
+2
+2
+GanJing_components
+Crystal 3225
+
+
+0
+4
+4
+GanJing_components
 EC11_rotary_encoder
 Rotary encoder
 
@@ -52129,6 +52157,13 @@ Proprietary microcontroller board featuring the ATmega32U4 and a USB-c port
 29
 29
 GanJing_components
+Fuse 1206
+
+
+0
+2
+2
+GanJing_components
 GanJing_logo_full
 GanJing keyboard full logo
 
@@ -52142,6 +52177,13 @@ GanJing keyboard half logo
 0
 0
 0
+GanJing_components
+LED WS2812B
+
+
+0
+4
+4
 GanJing_components
 Logo
 GanJing keyboard logo
@@ -52185,6 +52227,13 @@ MX_1.25u_no_LED_hotswap
 2
 2
 GanJing_components
+MX_1.25u_no_LED_hotswap_flipped
+1.25u MX hotswap switch
+
+0
+2
+2
+GanJing_components
 MX_1.75u_no_LED
 1.75u MX switch
 
@@ -52194,6 +52243,13 @@ MX_1.75u_no_LED
 GanJing_components
 MX_1.75u_no_LED_hotswap
 1.75u MX hotswap switch
+
+0
+2
+2
+GanJing_components
+MX_1.75u_no_LED_hotswap_flipped
+1.75u MX hotswap switch flipped
 
 0
 2
@@ -52318,6 +52374,13 @@ MX_6.25u_no_LED_flipped_stabs
 2
 2
 GanJing_components
+MX_6.25u_no_LED_hotswap
+6.25u MX hotswap switch
+
+0
+2
+2
+GanJing_components
 MX_6.25u_no_LED_hotswap_flipped_stabs
 6.25u MX hotswap switch with flipped stabs
 
@@ -52353,6 +52416,27 @@ ISO MX hotswap switch with flipped stabs
 2
 2
 GanJing_components
+Resistor 0402
+
+
+0
+2
+2
+GanJing_components
+SOT-23-3
+
+
+0
+3
+3
+GanJing_components
+SOT-23-6
+
+
+0
+6
+6
+GanJing_components
 SSD1306_128x32_OLED
 128x32 OLED display
 
@@ -52366,6 +52450,27 @@ SSD1306_128x64_OLED
 0
 4
 4
+GanJing_components
+TS1187ABAB
+TS-1187A-B-A-B-1
+Switch
+0
+4
+2
+GanJing_components
+TXS0101DCKR
+
+
+0
+6
+6
+GanJing_components
+W25Q128JVS
+
+
+0
+8
+8
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -75900,6 +76005,13 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RP2040
+RP2040-QFN-56
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+70
+57
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf

@@ -41,9 +41,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		/* caps    A        S        D        F        G        H        J        K        L        ;        '        ~       enter     up   */
 		KC_CAPS, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, KC_NUHS, KC_ENT,  KC_UP,
 		/* shift   \        Z        X        C        V        B        N        M        ,        .        /       shift    print   insert */
-		KC_LSFT, KC_NUBS, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT, KC_PSCR, KC_INS,
-		/* ctrl   win      alt               space    space    space    space     alt      win     ctrl     fn       left     down     right */
-		KC_LCTL, KC_LGUI, KC_LALT,          KC_SPC,  KC_SPC,  KC_SPC,  KC_SPC,  KC_RALT, KC_RGUI, KC_RCTL, MO(FN),  KC_LEFT, KC_DOWN, KC_RGHT),
+		KC_LSPO, KC_NUBS, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSPC, KC_PSCR, KC_INS,
+		/* ctrl   win      alt               bkspc    enter    space    space     alt      win     ctrl     fn       left     down     right */
+		KC_LCTL, KC_LGUI, KC_LALT,          KC_BSPC, KC_ENT,  KC_SPC,  KC_SPC,  KC_RALT, KC_RGUI, KC_RCTL, MO(FN),  KC_LEFT, KC_DOWN, KC_RGHT),
 
 	// Function layer
 	[FN] = LAYOUT_hotswap(
@@ -55,7 +55,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, EASTER,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		/* shift   \        Z        X        C        V        B        N      email      ,        .        /       shift    print    pg dn */
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, EMAIL  , KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_PGDN,
-		/* ctrl   win      alt               space    space    space    space     alt      win     ctrl      fn      prev     play     next  */
+		/* ctrl   win      alt               bkspc    enter    space    space     alt      win     ctrl      fn      prev     play     next  */
 		KC_TRNS, KC_TRNS, KC_TRNS,          KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_MPRV, KC_MPLY, KC_MNXT)
 };
 

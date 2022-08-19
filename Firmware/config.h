@@ -41,8 +41,8 @@
 #define USB_MAX_POWER_CONSUMPTION 100
 
 /* Encoder pad definition */
-#define ENCODERS_PAD_A { D3 }
-#define ENCODERS_PAD_B { D2 }
+#define ENCODERS_PAD_A { D2 }
+#define ENCODERS_PAD_B { D3 }
 #define ENCODER_RESOLUTION 4
 
 /* Enable the OLED driver */
@@ -56,6 +56,9 @@
 #define LOCKING_SUPPORT_ENABLE
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
+
+/* Always sends esc when ctrl is held to enable the task manager shortcut on Windows */
+#define GRAVE_ESC_CTRL_OVERRIDE
 
 /*
  * Force NKRO

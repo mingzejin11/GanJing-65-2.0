@@ -1,6 +1,6 @@
 (footprint "EC11_rotary_encoder" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 625DCE59)
+  (tedit 62EB2B14)
   (descr "Rotary encoder")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -4 180) (layer "F.Fab")
